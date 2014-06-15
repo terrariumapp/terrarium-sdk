@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{307EB769-1691-4434-9C9D-C43752F167F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Terrarium.Sdk</RootNamespace>
+    <AssemblyName>Terrarium.Sdk</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Actions\Action.cs" />
+    <Compile Include="Classes\Actions\AttackAction.cs" />
+    <Compile Include="Classes\Actions\DefendAction.cs" />
+    <Compile Include="Classes\Actions\EatAction.cs" />
+    <Compile Include="Classes\Actions\MoveToAction.cs" />
+    <Compile Include="Classes\Actions\ReproduceAction.cs" />
+    <Compile Include="Classes\Creature\Animal.cs" />
+    <Compile Include="Classes\Creature\AntennaState.cs" />
+    <Compile Include="Classes\Creature\AttackedEventArgsCollection.cs" />
+    <Compile Include="Classes\Creature\Events\ActionResponseEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\AttackCompletedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\AttackCompletedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\AttackedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\AttackedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\BornEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\BornEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\DefendCompletedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\DefendCompletedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\EatCompletedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\EatCompletedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\IdleEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\IdleEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\LoadEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\LoadEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\MoveCompletedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\MoveCompletedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\OrganismEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\ReproduceCompletedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\ReproduceCompletedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\TeleportedEventArgs.cs" />
+    <Compile Include="Classes\Creature\Events\TeleportedEventHandler.cs" />
+    <Compile Include="Classes\Creature\Events\TraceEventHandler.cs" />
+    <Compile Include="Classes\Creature\MovementVector.cs" />
+    <Compile Include="Classes\Creature\Organism.cs" />
+    <Compile Include="Classes\Creature\OrganismEventResults.cs" />
+    <Compile Include="Classes\Creature\PendingActions.cs" />
+    <Compile Include="Classes\Engine\EngineSettings.cs" />
+    <Compile Include="Classes\Engine\Exceptions\AlreadyFullException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\AlreadyReproducingException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\GameEngineException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\ImproperFoodException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotDeadException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotEnoughEnergyException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotHungryException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotMatureException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotReadyToReproduceException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotVisibleException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\NotWithinDistanceException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\OrganismException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\OutOfBoundsException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\TooFastException.cs" />
+    <Compile Include="Classes\Helpers\Point.cs" />
+    <Compile Include="Classes\Helpers\Vector.cs" />
+    <Compile Include="Classes\State\AnimalState.cs" />
+    <Compile Include="Classes\State\OrganismState.cs" />
+    <Compile Include="Classes\State\PlantState.cs" />
+    <Compile Include="Enumerations\AnimalSkinFamily.cs" />
+    <Compile Include="Enumerations\AntennaPosition.cs" />
+    <Compile Include="Enumerations\DisplayAction.cs" />
+    <Compile Include="Enumerations\EnergyState.cs" />
+    <Compile Include="Enumerations\PopulationChangeReason.cs" />
+    <Compile Include="Enumerations\ReasonForStop.cs" />
+    <Compile Include="Interfaces\IAnimalSpecies.cs" />
+    <Compile Include="Interfaces\IAnimalWorldBoundary.cs" />
+    <Compile Include="Interfaces\IOrganismWorldBoundary.cs" />
+    <Compile Include="Interfaces\ISpecies.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
