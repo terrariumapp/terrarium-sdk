@@ -4,6 +4,9 @@
 
 namespace Terrarium.Sdk.Classes.Helpers
 {
+    /// <summary>
+    /// Copy of the Point structure from System.Drawing (so we don't have to include it in the SDK)
+    /// </summary>
     public class Point
     {
         private int x;
