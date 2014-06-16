@@ -9,4 +9,4 @@ To start using the SDK in your own creature (a Class library), run the following
 
 Documentation and samples are forthcoming.
 
-Terrium is a continuation of the [.NET Terrarium project on CodePlex](https://terrarium2.codeplex.com/)
+Terrarium is a continuation of the [.NET Terrarium project on CodePlex](https://terrarium2.codeplex.com/)
