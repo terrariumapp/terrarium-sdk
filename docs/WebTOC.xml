@@ -1,58 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="16bfb922-a954-4c20-8023-0a3d5fe23837" Title="Namespaces" Url="html/d75eb659-6335-53f6-af7a-81814a21ab7f.htm">
-    <HelpTOCNode Id="b513f360-b31c-45b8-95d1-76257509db9a" Title="Terrarium.Sdk.Classes.Actions" Url="html/d8c0ff56-aa66-5dfa-d471-556027c8922d.htm">
-      <HelpTOCNode Id="84b610f2-330d-4321-9e07-cb373b0a8a57" Title="Action Class" Url="html/f1bf001b-e803-cf41-f3ac-eb90db7c8e82.htm">
+  <HelpTOCNode Id="17470481-9024-4a07-913c-15f64b9a6ec5" Title="Namespaces" Url="html/d75eb659-6335-53f6-af7a-81814a21ab7f.htm">
+    <HelpTOCNode Id="44f04b35-01db-4310-88a3-202c1614fcf3" Title="Terrarium.Sdk.Classes.Actions" Url="html/d8c0ff56-aa66-5dfa-d471-556027c8922d.htm">
+      <HelpTOCNode Id="3fa853b1-2b74-4790-afd7-50e1d97489d1" Title="Action Class" Url="html/f1bf001b-e803-cf41-f3ac-eb90db7c8e82.htm">
         <HelpTOCNode Title="Action Methods" Url="html/2f32abc3-ec47-a6fa-c59c-c7442f17b2cf.htm" />
-        <HelpTOCNode Id="d0fc160a-0772-45bf-a87b-08e6e4306c12" Title="Action Properties" Url="html/a5ffd385-6af7-64ff-5817-a959d78c40e9.htm">
+        <HelpTOCNode Id="fabaf641-913e-47d5-9976-3616c0779a43" Title="Action Properties" Url="html/a5ffd385-6af7-64ff-5817-a959d78c40e9.htm">
           <HelpTOCNode Title="ActionID Property " Url="html/5cffbcf1-2f1b-b907-7c6b-3b3868f0fc49.htm" />
           <HelpTOCNode Title="OrganismID Property " Url="html/7a223ae8-59e7-6f02-14d1-321c5b851721.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f1da6420-bc91-4313-8c4c-6b69b32f99ea" Title="AttackAction Class" Url="html/3d2833d7-2303-6e6e-0d17-f4fcf8cb863e.htm">
-        <HelpTOCNode Id="cbfe1791-b2c8-457e-a0f7-08d32b6af647" Title="AttackAction Methods" Url="html/c260fa15-52ee-2060-0d3e-d229ea43066b.htm">
+      <HelpTOCNode Id="1aad255d-f6a0-4682-96e4-2be5b4af1666" Title="AttackAction Class" Url="html/3d2833d7-2303-6e6e-0d17-f4fcf8cb863e.htm">
+        <HelpTOCNode Id="564bedd6-d9b4-4149-ba1a-d7c0a165122c" Title="AttackAction Methods" Url="html/c260fa15-52ee-2060-0d3e-d229ea43066b.htm">
           <HelpTOCNode Title="ToString Method " Url="html/92559dab-55ba-e23b-8aae-04ee695d4a45.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ad1a6419-6307-43d3-84b5-4443cb6c67ba" Title="AttackAction Properties" Url="html/e29c126d-3043-7726-c3d0-18a66fdbe20b.htm">
+        <HelpTOCNode Id="c32c67df-a6f4-4cf8-878a-1b13d0d7e136" Title="AttackAction Properties" Url="html/e29c126d-3043-7726-c3d0-18a66fdbe20b.htm">
           <HelpTOCNode Title="TargetAnimal Property " Url="html/5b1ff500-1ac9-16c7-0c07-eaf2b11dc5f7.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="134f76b4-1da4-4502-bd79-f887ee4fc381" Title="DefendAction Class" Url="html/b50a7224-08a3-73d0-e713-fb20d128f15e.htm">
-        <HelpTOCNode Id="99be2257-f8f4-4d42-b1a0-3134e6f6ef29" Title="DefendAction Methods" Url="html/0bccc48f-1d3c-6040-318d-a3fbddbe2580.htm">
+      <HelpTOCNode Id="e28c3eab-a053-4079-b2b6-d2bb94d0c647" Title="DefendAction Class" Url="html/b50a7224-08a3-73d0-e713-fb20d128f15e.htm">
+        <HelpTOCNode Id="b2bd37c2-9258-4023-9648-7b11bc4b3eeb" Title="DefendAction Methods" Url="html/0bccc48f-1d3c-6040-318d-a3fbddbe2580.htm">
           <HelpTOCNode Title="ToString Method " Url="html/270e247f-b67f-9df7-13d7-639b360411d8.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2a5446ea-24bc-4828-90c1-171abd21399f" Title="DefendAction Properties" Url="html/4423d11b-cb92-8cb6-d804-8ffc28cd0b6e.htm">
+        <HelpTOCNode Id="b8c71e27-bb86-4996-8189-4f91b9f34277" Title="DefendAction Properties" Url="html/4423d11b-cb92-8cb6-d804-8ffc28cd0b6e.htm">
           <HelpTOCNode Title="TargetAnimal Property " Url="html/ecef707d-0fba-a2b0-c46d-07698489feed.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="256bed3e-6ed6-4eba-9bf0-d3bebb23cd6d" Title="EatAction Class" Url="html/32b9f83f-205b-b0c6-15d3-eebebbc242b0.htm">
-        <HelpTOCNode Id="3f9b1d8f-91b4-4678-a431-cd913fa023a5" Title="EatAction Methods" Url="html/726c584c-810c-3b59-62fe-14d066d61725.htm">
+      <HelpTOCNode Id="72ae2a8f-70fa-46b1-badf-1a3b5e0a85b9" Title="EatAction Class" Url="html/32b9f83f-205b-b0c6-15d3-eebebbc242b0.htm">
+        <HelpTOCNode Id="dab99d1a-aaf8-43f7-8654-6318250824c0" Title="EatAction Methods" Url="html/726c584c-810c-3b59-62fe-14d066d61725.htm">
           <HelpTOCNode Title="ToString Method " Url="html/96e7866b-2dd4-6bac-ff1f-230196f4d27d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="481af11a-80db-40c0-83d5-58b89a6e0b25" Title="EatAction Properties" Url="html/e0bbbdff-3abf-13b2-93c6-517286569f67.htm">
+        <HelpTOCNode Id="2685358a-9465-4a6a-b50a-a4276419871f" Title="EatAction Properties" Url="html/e0bbbdff-3abf-13b2-93c6-517286569f67.htm">
           <HelpTOCNode Title="TargetOrganism Property " Url="html/31d5c4e8-f90e-3272-e2ef-0355aafdda39.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="774bb7c6-ae49-436d-8442-647cec74e413" Title="MoveToAction Class" Url="html/9f1e8609-2ab5-5bc5-0375-27ae1ab9695e.htm">
-        <HelpTOCNode Id="85554b49-13d9-4a6c-aeed-a66a591313ec" Title="MoveToAction Methods" Url="html/18ad26bd-bb66-e79d-cc11-3460cb619534.htm">
+      <HelpTOCNode Id="3a4b97b5-048a-431a-83c0-21f57ceabd68" Title="MoveToAction Class" Url="html/9f1e8609-2ab5-5bc5-0375-27ae1ab9695e.htm">
+        <HelpTOCNode Id="4e6e82ad-c35e-4b51-9d05-f64e04517311" Title="MoveToAction Methods" Url="html/18ad26bd-bb66-e79d-cc11-3460cb619534.htm">
           <HelpTOCNode Title="ToString Method " Url="html/b1930cc1-88b9-98ee-4d44-bae117ff2d9d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="87306b57-7a27-4682-a69e-4c51c4b2bdb7" Title="MoveToAction Properties" Url="html/3ce181c3-7ce9-0e75-499e-f2b2292ae66c.htm">
+        <HelpTOCNode Id="7cfd169f-9dcd-4a61-94f9-0db54838bef2" Title="MoveToAction Properties" Url="html/3ce181c3-7ce9-0e75-499e-f2b2292ae66c.htm">
           <HelpTOCNode Title="MovementVector Property " Url="html/9a6f3d5f-5c1b-156b-cd4a-f9ec137f3725.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c52c8eb9-7532-4696-b651-83188269ed95" Title="ReproduceAction Class" Url="html/b8865663-189b-0da5-09f1-05d4b8740000.htm">
+      <HelpTOCNode Id="caeef50e-7992-45d9-8aac-5026ca1d87c6" Title="ReproduceAction Class" Url="html/b8865663-189b-0da5-09f1-05d4b8740000.htm">
         <HelpTOCNode Title="ReproduceAction Methods" Url="html/8536e4bd-1060-218f-a7e8-82df8766ab0b.htm" />
-        <HelpTOCNode Id="6cfd655b-2e51-47d5-b444-ff52f214d09f" Title="ReproduceAction Properties" Url="html/d0bb45fb-34cc-2d3c-a289-c52f630346d8.htm">
+        <HelpTOCNode Id="258e3620-12cc-4684-8b8e-dc956fb56624" Title="ReproduceAction Properties" Url="html/d0bb45fb-34cc-2d3c-a289-c52f630346d8.htm">
           <HelpTOCNode Title="Dna Property " Url="html/e4a9fcd9-0d69-d334-939f-3f955d96c8d8.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="94ddae8d-407a-4693-be14-22213bb9d446" Title="Terrarium.Sdk.Classes.Creature" Url="html/ffc2543c-304f-fd68-c94c-61a3deafb6a1.htm">
-      <HelpTOCNode Id="713f0fca-5a25-4c0f-9f29-f7717f028990" Title="Animal Class" Url="html/939fce36-2881-7c11-9885-d11a5b11822d.htm">
+    <HelpTOCNode Id="acaa03ba-53f3-454a-84aa-f87052717a06" Title="Terrarium.Sdk.Classes.Creature" Url="html/ffc2543c-304f-fd68-c94c-61a3deafb6a1.htm">
+      <HelpTOCNode Id="47b5ac99-1590-4e2b-9500-147199cbc131" Title="Animal Class" Url="html/939fce36-2881-7c11-9885-d11a5b11822d.htm">
         <HelpTOCNode Title="Animal Constructor " Url="html/ae347967-0a91-5032-1a95-d7e02a5f7a96.htm" />
-        <HelpTOCNode Id="9bde98b4-f031-4d8c-ab4c-b9e6e2809fcb" Title="Animal Methods" Url="html/bd7e09e4-a3a5-9632-bbc8-f9e0737c27ad.htm">
+        <HelpTOCNode Id="b13e9e76-9a56-431e-8102-1c6700df490f" Title="Animal Methods" Url="html/bd7e09e4-a3a5-9632-bbc8-f9e0737c27ad.htm">
           <HelpTOCNode Title="BeginAttacking Method " Url="html/f6bf9cc0-ae1e-37cf-f894-cd4cc8702770.htm" />
           <HelpTOCNode Title="BeginDefending Method " Url="html/8a8dc0c4-3046-b91e-6acb-b82cdce51e67.htm" />
           <HelpTOCNode Title="BeginEating Method " Url="html/a962e557-076f-0a95-afd3-669475bd30c8.htm" />
@@ -71,7 +71,7 @@
           <HelpTOCNode Title="WithinAttackingRange Method " Url="html/382a72b0-0182-8d45-60e2-f13f5bd9a055.htm" />
           <HelpTOCNode Title="WithinEatingRange Method " Url="html/eb55e3b3-ecaa-7b1e-0cfc-028db7300528.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0ccf2160-0d58-43a8-b79d-cf8817af97fd" Title="Animal Properties" Url="html/66746c4e-dd22-5057-82e3-7480bd65985b.htm">
+        <HelpTOCNode Id="bca9b503-87f1-411f-ba34-43bed68f10d6" Title="Animal Properties" Url="html/66746c4e-dd22-5057-82e3-7480bd65985b.htm">
           <HelpTOCNode Title="Antennas Property " Url="html/92f8ca56-d8c3-f4a8-5034-a2789a7e6e88.htm" />
           <HelpTOCNode Title="CanEat Property " Url="html/933f94b4-f32f-ef63-322d-12c2edd26414.htm" />
           <HelpTOCNode Title="CurrentAttackAction Property " Url="html/e73446fb-4293-2ced-4bd9-ab97a4041918.htm" />
@@ -87,7 +87,7 @@
           <HelpTOCNode Title="WorldHeight Property " Url="html/6d3d5d35-6aad-84e9-2d38-2128ee8f03be.htm" />
           <HelpTOCNode Title="WorldWidth Property " Url="html/a7c346d9-6c82-ed8d-29c2-9ce5127fdd99.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="aadfebe0-557d-4e74-8743-28a3d401e741" Title="Animal Events" Url="html/f30643ad-05f9-3309-ccde-de3169a09e2f.htm">
+        <HelpTOCNode Id="75fb140a-7f5e-4224-8506-595dc4128484" Title="Animal Events" Url="html/f30643ad-05f9-3309-ccde-de3169a09e2f.htm">
           <HelpTOCNode Title="AttackCompleted Event" Url="html/87bfbd37-e3bc-5bda-e427-7a77a444b1c4.htm" />
           <HelpTOCNode Title="Attacked Event" Url="html/617578cd-7213-7c6c-c622-2cf51806b193.htm" />
           <HelpTOCNode Title="Born Event" Url="html/21284157-175e-d088-66fd-5e1b2f97376f.htm" />
@@ -100,42 +100,42 @@
           <HelpTOCNode Title="Teleported Event" Url="html/003d9f2e-de2f-4b87-6c45-7dfa169c5fcd.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b20b78ab-9726-43fb-af3b-c2fd738bde17" Title="AntennaState Class" Url="html/aaa7a8f9-140b-d1a4-d3d6-a2b1ac6e9b0b.htm">
-        <HelpTOCNode Id="02c8074a-e0b8-4873-9bb1-4bc16d85c89e" Title="AntennaState Constructor " Url="html/6625eff7-532e-e923-095f-e778b991a917.htm">
+      <HelpTOCNode Id="045af56b-9533-40bb-a768-b24aa9d0abc5" Title="AntennaState Class" Url="html/aaa7a8f9-140b-d1a4-d3d6-a2b1ac6e9b0b.htm">
+        <HelpTOCNode Id="00a5df69-2624-454f-bf3e-90f6b60067bf" Title="AntennaState Constructor " Url="html/6625eff7-532e-e923-095f-e778b991a917.htm">
           <HelpTOCNode Title="AntennaState Constructor (AntennaState)" Url="html/c251745e-ccf1-26a8-e00a-569c4b8eda66.htm" />
           <HelpTOCNode Title="AntennaState Constructor (AntennaPosition, AntennaPosition)" Url="html/f06fdc0f-8d0a-d1ff-1924-1d12931f2aaa.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a4aee509-6dcc-4763-9038-caaf3ccbc237" Title="AntennaState Methods" Url="html/1f2ba713-b5d9-4996-47ea-fbf817c2f283.htm">
+        <HelpTOCNode Id="f203ca61-afda-4ccc-ad2f-67b845c15b3b" Title="AntennaState Methods" Url="html/1f2ba713-b5d9-4996-47ea-fbf817c2f283.htm">
           <HelpTOCNode Title="MakeImmutable Method " Url="html/2516ff0e-4377-0dca-b975-f21761c78ce7.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e25d3e25-fae9-4510-bcbe-b9114c633035" Title="AntennaState Properties" Url="html/d00f1f86-3695-6874-a4b6-7204b8e4d35d.htm">
+        <HelpTOCNode Id="227e9892-8014-4c8f-800e-63785ba90065" Title="AntennaState Properties" Url="html/d00f1f86-3695-6874-a4b6-7204b8e4d35d.htm">
           <HelpTOCNode Title="AntennaValue Property " Url="html/31c89bb6-ae05-3edf-f201-d9adbfabfe4f.htm" />
           <HelpTOCNode Title="LeftAntenna Property " Url="html/edf24d7a-cc29-07fe-2a56-5f6159ceea6c.htm" />
           <HelpTOCNode Title="RightAntenna Property " Url="html/8f472213-9537-2a3a-6d85-0b286ed38cfe.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b38a04d0-1e33-4c2a-8382-3384c061c1f4" Title="AttackedEventArgsCollection Class" Url="html/196e2dcc-b5c3-2098-9235-377bff6dfc12.htm">
-        <HelpTOCNode Id="c59a081e-ddba-449b-9eaa-ac06701ecec8" Title="AttackedEventArgsCollection Methods" Url="html/ea814187-f84b-1cc3-f661-4212fb926e7a.htm">
+      <HelpTOCNode Id="3936711d-e2e7-478a-b8f3-3407bc2e63b7" Title="AttackedEventArgsCollection Class" Url="html/196e2dcc-b5c3-2098-9235-377bff6dfc12.htm">
+        <HelpTOCNode Id="2669a3a6-96fd-4c33-b133-ffe87b0aa9ed" Title="AttackedEventArgsCollection Methods" Url="html/ea814187-f84b-1cc3-f661-4212fb926e7a.htm">
           <HelpTOCNode Title="Add Method " Url="html/9d435268-ca73-701c-571e-61429b34f91d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="bf979321-4631-4d82-a144-2e5ada2e8cc2" Title="AttackedEventArgsCollection Properties" Url="html/ef59e3c3-4154-10a6-f133-c85ba9da0a9b.htm">
+        <HelpTOCNode Id="99b2d840-0938-411b-bd17-35a68199a6b6" Title="AttackedEventArgsCollection Properties" Url="html/ef59e3c3-4154-10a6-f133-c85ba9da0a9b.htm">
           <HelpTOCNode Title="Item Property " Url="html/a3acdfb6-65de-4163-8f9d-e5e4ecf1ea8a.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="95d91749-ffd1-40aa-b02f-0f1ee3efdd2e" Title="MovementVector Class" Url="html/ff1ac8a8-5fbe-1255-fb6b-7bcfde346362.htm">
+      <HelpTOCNode Id="0c18a234-9a5e-40e5-a7bd-4b66e59a6a5f" Title="MovementVector Class" Url="html/ff1ac8a8-5fbe-1255-fb6b-7bcfde346362.htm">
         <HelpTOCNode Title="MovementVector Constructor " Url="html/80d352bd-63ee-2bbe-a90c-4455ad83d373.htm" />
-        <HelpTOCNode Id="549cf744-028e-4115-a1d3-4806e45169f1" Title="MovementVector Methods" Url="html/4081e041-4f54-015e-d23a-aa8f514ff183.htm">
+        <HelpTOCNode Id="43ec7f22-e251-482e-b48e-931933a7298e" Title="MovementVector Methods" Url="html/4081e041-4f54-015e-d23a-aa8f514ff183.htm">
           <HelpTOCNode Title="ToString Method " Url="html/d07c6591-1fac-7066-041e-173fd4382818.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="85196dee-70ef-4713-b228-16972b319946" Title="MovementVector Properties" Url="html/1acc182e-8143-350f-2155-bffcfbbdb356.htm">
+        <HelpTOCNode Id="6f36c51a-ac8c-4f63-978c-af83b8debf90" Title="MovementVector Properties" Url="html/1acc182e-8143-350f-2155-bffcfbbdb356.htm">
           <HelpTOCNode Title="Destination Property " Url="html/8746981c-6838-5407-ce56-0ecf1b688f14.htm" />
           <HelpTOCNode Title="IsStopped Property " Url="html/b2051a32-74eb-03c6-df47-e95392beb6ac.htm" />
           <HelpTOCNode Title="Speed Property " Url="html/06567606-4d67-87be-9583-fbe223ec4681.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="252b7661-e52f-431e-86e4-5be49b4f42a1" Title="Organism Class" Url="html/c9024f66-ae7b-03ce-ca71-c4ee70d31eb8.htm">
+      <HelpTOCNode Id="8711f8fa-55ec-4c87-82d4-001f83642700" Title="Organism Class" Url="html/c9024f66-ae7b-03ce-ca71-c4ee70d31eb8.htm">
         <HelpTOCNode Title="Organism Constructor " Url="html/be4c5a39-21da-69df-a5b5-68ee3318efa0.htm" />
-        <HelpTOCNode Id="4165b47e-ceb8-49b9-b115-15860cb5bc79" Title="Organism Methods" Url="html/deaa864e-5f4c-6a64-f2c3-8a97519fe69d.htm">
+        <HelpTOCNode Id="a8b0fddd-bd76-4c1b-9f12-c04e85cdb1d4" Title="Organism Methods" Url="html/deaa864e-5f4c-6a64-f2c3-8a97519fe69d.htm">
           <HelpTOCNode Title="BeginReproduction Method " Url="html/df1c88ca-4800-b153-2f45-387e10752afa.htm" />
           <HelpTOCNode Title="DistanceTo Method " Url="html/eec34a65-5a3d-9fb1-5b31-1d880da34598.htm" />
           <HelpTOCNode Title="GetThenErasePendingActions Method " Url="html/76a5c296-889c-eb9a-a62a-0b11d11ee1cf.htm" />
@@ -144,14 +144,14 @@
           <HelpTOCNode Title="InternalOrganismDeserialize Method " Url="html/f603fc7b-3468-ead6-de11-b008781879b4.htm" />
           <HelpTOCNode Title="InternalOrganismSerialize Method " Url="html/fed6dfcd-34d5-405d-c941-28512489c187.htm" />
           <HelpTOCNode Title="SetWorldBoundary Method " Url="html/fd919427-5192-9c4d-3c78-9312393ded59.htm" />
-          <HelpTOCNode Id="59d1e222-52b7-4014-b43e-1c71db41929a" Title="WriteTrace Method " Url="html/133a62a8-330e-93f0-5294-6dba24065d69.htm">
+          <HelpTOCNode Id="3564a001-edca-4f52-9388-2711d1cb6c5d" Title="WriteTrace Method " Url="html/133a62a8-330e-93f0-5294-6dba24065d69.htm">
             <HelpTOCNode Title="WriteTrace Method (Object)" Url="html/f48bf8e8-eb49-c8da-d3ee-4969324e3d81.htm" />
             <HelpTOCNode Title="WriteTrace Method (Object, Object)" Url="html/ba845fc2-73d0-739c-edd2-091d83d5d9bb.htm" />
             <HelpTOCNode Title="WriteTrace Method (Object, Object, Object)" Url="html/d81ab429-28f1-5937-aed1-298a8b7b02e2.htm" />
             <HelpTOCNode Title="WriteTrace Method (Object, Object, Object, Object)" Url="html/578fae56-6542-0adb-05fe-9580cbac8920.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="1d9fcef1-3128-4a64-93a1-7483a3962f08" Title="Organism Properties" Url="html/16dea2a3-1e55-334e-128d-599adedd7301.htm">
+        <HelpTOCNode Id="da4daf86-f83f-43fb-a8bb-7d4cd53aa0ab" Title="Organism Properties" Url="html/16dea2a3-1e55-334e-128d-599adedd7301.htm">
           <HelpTOCNode Title="CanReproduce Property " Url="html/a298cd45-2ae6-bf90-2092-da71a58ffbd0.htm" />
           <HelpTOCNode Title="CurrentReproduceAction Property " Url="html/6450f272-19f6-5d17-ed69-b38722448e08.htm" />
           <HelpTOCNode Title="ID Property " Url="html/7fc3fdf2-9bc4-ebf7-3bf5-d45972c34f6c.htm" />
@@ -164,12 +164,12 @@
           <HelpTOCNode Title="TurnsSkipped Property " Url="html/8b644579-01b3-eb6f-6476-760669e84ed7.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="23c6cc44-4825-4666-8df8-e9003ddf4f8f" Title="OrganismEventResults Class" Url="html/ac4742ef-f433-a498-dca3-f57663568363.htm">
+      <HelpTOCNode Id="71073032-521a-4b2e-b438-f72241fa8b4b" Title="OrganismEventResults Class" Url="html/ac4742ef-f433-a498-dca3-f57663568363.htm">
         <HelpTOCNode Title="OrganismEventResults Constructor " Url="html/db230786-4b67-d806-a3f9-b305f005c079.htm" />
-        <HelpTOCNode Id="2e0fe235-6ab3-4aac-8cf4-42f53f1b2c17" Title="OrganismEventResults Methods" Url="html/1d075afc-c72c-15b4-1b13-72d6db888a7c.htm">
+        <HelpTOCNode Id="42efbb91-ca35-49ea-8fbf-ef96e9e88db7" Title="OrganismEventResults Methods" Url="html/1d075afc-c72c-15b4-1b13-72d6db888a7c.htm">
           <HelpTOCNode Title="MakeImmutable Method " Url="html/c7b34cfa-e946-f604-9678-e2abf48fd123.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7bfd2737-ada2-45bd-975e-604aa6d9db10" Title="OrganismEventResults Properties" Url="html/e954611f-1d3c-0031-f09c-e662f5d5b20c.htm">
+        <HelpTOCNode Id="d0dd9f0d-ec0d-4bd7-b972-05194ca76b84" Title="OrganismEventResults Properties" Url="html/e954611f-1d3c-0031-f09c-e662f5d5b20c.htm">
           <HelpTOCNode Title="AttackCompleted Property " Url="html/715e67c9-e109-6236-6fc6-9b05894d8811.htm" />
           <HelpTOCNode Title="AttackedEvents Property " Url="html/bb73fcd2-5a40-be6b-0c54-ebab3e736775.htm" />
           <HelpTOCNode Title="Born Property " Url="html/19a2e545-4d14-806d-ca87-053ff5cee4ad.htm" />
@@ -181,9 +181,9 @@
           <HelpTOCNode Title="Teleported Property " Url="html/f086dae3-c568-66b9-3684-a14d0d26abf4.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="2fd56602-134e-4dfd-b288-97b8af193a87" Title="PendingActions Class" Url="html/1fabb2bb-647a-23d9-2306-e96e9a2fdace.htm">
+      <HelpTOCNode Id="4f06946e-42fd-4de7-b520-09544560f9a7" Title="PendingActions Class" Url="html/1fabb2bb-647a-23d9-2306-e96e9a2fdace.htm">
         <HelpTOCNode Title="PendingActions Constructor " Url="html/93dafe52-838e-f360-ccc9-8b9a55180dd5.htm" />
-        <HelpTOCNode Id="26f0b3f6-7069-4494-bed0-2362c3e085c6" Title="PendingActions Methods" Url="html/3fc8a941-ccf2-c8de-b2c9-64ef6b36ad94.htm">
+        <HelpTOCNode Id="cf9b569c-9174-490a-b5c1-ee7522ffc444" Title="PendingActions Methods" Url="html/3fc8a941-ccf2-c8de-b2c9-64ef6b36ad94.htm">
           <HelpTOCNode Title="MakeImmutable Method " Url="html/dac7f391-033c-a978-fd83-06b45fecc8a2.htm" />
           <HelpTOCNode Title="SetAttackAction Method " Url="html/474349df-2e88-2f48-2044-0880cffee1be.htm" />
           <HelpTOCNode Title="SetDefendAction Method " Url="html/38a6b1e7-ab30-b76f-db42-b8fa2c0031a7.htm" />
@@ -191,7 +191,7 @@
           <HelpTOCNode Title="SetMoveToAction Method " Url="html/2bf64a54-78d8-7649-efcf-2c7a3ffe4036.htm" />
           <HelpTOCNode Title="SetReproduceAction Method " Url="html/4b40e1c9-e1f9-878e-aedd-9eb5980dd5e7.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a088606b-8d94-4db1-bba0-c5988e98c42f" Title="PendingActions Properties" Url="html/6eba339a-b8ac-1f37-918f-094bc30a74e1.htm">
+        <HelpTOCNode Id="b74ebf38-b0bb-41cc-982b-b123fd694a93" Title="PendingActions Properties" Url="html/6eba339a-b8ac-1f37-918f-094bc30a74e1.htm">
           <HelpTOCNode Title="AttackAction Property " Url="html/cb9f7cd3-134d-46b1-57e3-3ccb47476366.htm" />
           <HelpTOCNode Title="DefendAction Property " Url="html/b5807d10-bd1d-cd4a-b737-5d892ae08494.htm" />
           <HelpTOCNode Title="EatAction Property " Url="html/e7ae1bcd-7b58-d06c-0f76-27cd0102aacb.htm" />
@@ -201,153 +201,153 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d5502241-f1ed-4c2a-8bac-a6fdc841aa72" Title="Terrarium.Sdk.Classes.Creature.Attributes" Url="html/2161aef1-73a1-ff80-f4bb-f01f38d64331.htm">
-      <HelpTOCNode Id="c9bd6424-76b8-4217-9902-573c834bff2a" Title="AnimalSkinAttribute Class" Url="html/87f78c0c-7f4c-9638-10df-e126afa082bc.htm">
-        <HelpTOCNode Id="2c4840dd-49f1-4ba0-bb86-f08e53f03957" Title="AnimalSkinAttribute Constructor " Url="html/1b57c770-e287-6053-df9a-0730c9acaaa5.htm">
+    <HelpTOCNode Id="578f5e9b-7f3c-4266-9e22-062b67ab3318" Title="Terrarium.Sdk.Classes.Creature.Attributes" Url="html/2161aef1-73a1-ff80-f4bb-f01f38d64331.htm">
+      <HelpTOCNode Id="83bf1a12-534f-436d-970a-02a4885b180d" Title="AnimalSkinAttribute Class" Url="html/87f78c0c-7f4c-9638-10df-e126afa082bc.htm">
+        <HelpTOCNode Id="ef04d2fe-65e0-4884-8eb0-8be827ad64dc" Title="AnimalSkinAttribute Constructor " Url="html/1b57c770-e287-6053-df9a-0730c9acaaa5.htm">
           <HelpTOCNode Title="AnimalSkinAttribute Constructor (String)" Url="html/30ec1bb6-8092-fd81-463d-4e4a9da6b7dd.htm" />
           <HelpTOCNode Title="AnimalSkinAttribute Constructor (AnimalSkinFamily)" Url="html/8ae394f5-4e62-14ec-5f05-e2ac261df58f.htm" />
           <HelpTOCNode Title="AnimalSkinAttribute Constructor (AnimalSkinFamily, String)" Url="html/e75a19ca-742c-9e3c-ebd3-7281f741c89b.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AnimalSkinAttribute Methods" Url="html/6ef8ff7b-2198-6336-fc69-5aedf2c8f84b.htm" />
-        <HelpTOCNode Id="09336542-b2b1-4e70-8bab-53771f52d789" Title="AnimalSkinAttribute Properties" Url="html/29f10a9c-756b-036d-d80b-b8fd53eb080e.htm">
+        <HelpTOCNode Id="30b9791e-ed14-46c2-83a8-acf351a3035b" Title="AnimalSkinAttribute Properties" Url="html/29f10a9c-756b-036d-d80b-b8fd53eb080e.htm">
           <HelpTOCNode Title="Skin Property " Url="html/b986c98b-a318-ab67-4f42-a4496153579f.htm" />
           <HelpTOCNode Title="SkinFamily Property " Url="html/d9e7ce9a-d8f4-9b61-cbc0-0162a50e69c6.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="acb0904c-0497-4e08-9625-aa1a72abc35d" Title="AttackDamagePointsAttribute Class" Url="html/b009253a-1501-c387-9ecf-58a08317d2da.htm">
+      <HelpTOCNode Id="83bd9533-6c67-4fc3-bed1-358133e7e183" Title="AttackDamagePointsAttribute Class" Url="html/b009253a-1501-c387-9ecf-58a08317d2da.htm">
         <HelpTOCNode Title="AttackDamagePointsAttribute Constructor " Url="html/c9f494e5-c5ac-355d-8c25-8119190cfecb.htm" />
         <HelpTOCNode Title="AttackDamagePointsAttribute Methods" Url="html/2cf01cbb-b640-c6b2-5dfa-59050064c9a3.htm" />
-        <HelpTOCNode Id="3d954061-c74e-489d-9c8e-09ab6bd4bac0" Title="AttackDamagePointsAttribute Properties" Url="html/a381de46-a5ad-f310-3800-e93127d3451b.htm">
+        <HelpTOCNode Id="c2fcc4e6-8dfa-49d3-a12f-74596c56506f" Title="AttackDamagePointsAttribute Properties" Url="html/a381de46-a5ad-f310-3800-e93127d3451b.htm">
           <HelpTOCNode Title="MaximumAttackDamagePerUnitRadius Property " Url="html/53cdeffc-cd6c-1dfa-b794-612c6b5e0d1c.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="34392c4b-059f-4689-9c3b-2d80da26f213" Title="AuthorInformationAttribute Class" Url="html/fbb4f235-e3a2-0ff3-dd23-84bd9c16bdbf.htm">
-        <HelpTOCNode Id="25a1a137-68f0-453d-9ad3-cf3565b07fdb" Title="AuthorInformationAttribute Constructor " Url="html/cebafeba-3cc6-c84e-fd22-d1fc5afc85f4.htm">
+      <HelpTOCNode Id="13d3e838-3ab8-4b82-860d-780071523585" Title="AuthorInformationAttribute Class" Url="html/fbb4f235-e3a2-0ff3-dd23-84bd9c16bdbf.htm">
+        <HelpTOCNode Id="90bbd9fd-b799-4bb5-9e41-53a7d37b8cf7" Title="AuthorInformationAttribute Constructor " Url="html/cebafeba-3cc6-c84e-fd22-d1fc5afc85f4.htm">
           <HelpTOCNode Title="AuthorInformationAttribute Constructor (String)" Url="html/2336c564-8352-5e8a-b2f6-780b02139a70.htm" />
           <HelpTOCNode Title="AuthorInformationAttribute Constructor (String, String)" Url="html/5c254258-7d91-bd0d-3aec-8d4e342b77aa.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AuthorInformationAttribute Methods" Url="html/166bd6aa-07e0-9b72-cad5-38caba255a67.htm" />
-        <HelpTOCNode Id="933a5c20-2850-4c22-8c1c-1262a3c533c2" Title="AuthorInformationAttribute Properties" Url="html/b0a15d24-4518-dfb8-5889-da6908aebae0.htm">
+        <HelpTOCNode Id="e3880a10-3718-41d6-aa11-bbf32f161ba0" Title="AuthorInformationAttribute Properties" Url="html/b0a15d24-4518-dfb8-5889-da6908aebae0.htm">
           <HelpTOCNode Title="AuthorEmail Property " Url="html/c68ff712-ee73-b5f0-2918-9cd9ce657059.htm" />
           <HelpTOCNode Title="AuthorName Property " Url="html/5e62b910-3c03-39be-ac57-932bdc289b8f.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9070bf48-92f4-4afa-8d01-8b53105ed871" Title="CamouflagePointsAttribute Class" Url="html/9590a55a-50d3-6f6e-f8e5-e0d96514f8f5.htm">
+      <HelpTOCNode Id="63ee3c52-db46-43de-a88a-b70b75be65e0" Title="CamouflagePointsAttribute Class" Url="html/9590a55a-50d3-6f6e-f8e5-e0d96514f8f5.htm">
         <HelpTOCNode Title="CamouflagePointsAttribute Constructor " Url="html/e4b512a7-70d8-5d5e-4761-24641fa7c86c.htm" />
         <HelpTOCNode Title="CamouflagePointsAttribute Methods" Url="html/9b83b011-fb9e-213b-b231-65f39278bfc1.htm" />
-        <HelpTOCNode Id="ca20cbba-09b0-41e0-bdb4-ece8c262e975" Title="CamouflagePointsAttribute Properties" Url="html/b714d3b0-ed48-a9c7-28df-f43b60aeddd6.htm">
+        <HelpTOCNode Id="8f70a1de-78dc-4a66-9c32-b3b0a6efd459" Title="CamouflagePointsAttribute Properties" Url="html/b714d3b0-ed48-a9c7-28df-f43b60aeddd6.htm">
           <HelpTOCNode Title="InvisibleOdds Property " Url="html/f0ab4c6c-72c9-3acd-8165-9a12a074da6e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="69cb5047-14b4-4cc5-82bf-10eaa1125b14" Title="CarnivoreAttribute Class" Url="html/f8a86902-c291-f80e-7fe9-09c56ce5ce52.htm">
+      <HelpTOCNode Id="a802531a-3c16-4cb1-a6ed-b347bd5d7275" Title="CarnivoreAttribute Class" Url="html/f8a86902-c291-f80e-7fe9-09c56ce5ce52.htm">
         <HelpTOCNode Title="CarnivoreAttribute Constructor " Url="html/b260d4f6-3fd1-181e-2fdc-22c3e6a8850e.htm" />
         <HelpTOCNode Title="CarnivoreAttribute Methods" Url="html/d742167a-771a-972e-9c07-b2f7f5062803.htm" />
-        <HelpTOCNode Id="a9cde521-bcf3-4833-9ce2-6f1d0c226889" Title="CarnivoreAttribute Properties" Url="html/237632e8-ba31-5839-8675-cbfcc5c37211.htm">
+        <HelpTOCNode Id="3d490fdb-80ce-44da-be44-82d3bd38b5c2" Title="CarnivoreAttribute Properties" Url="html/237632e8-ba31-5839-8675-cbfcc5c37211.htm">
           <HelpTOCNode Title="IsCarnivore Property " Url="html/60b14f8e-d4f9-4c1e-e33c-e4acbd515a0a.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b2b879b4-b247-4afa-bbb9-425227309d4a" Title="DefendDamagePointsAttribute Class" Url="html/67661642-860e-254d-b4e3-f8d6f3ed1e2a.htm">
+      <HelpTOCNode Id="b9444571-a477-4237-8137-f7709016d507" Title="DefendDamagePointsAttribute Class" Url="html/67661642-860e-254d-b4e3-f8d6f3ed1e2a.htm">
         <HelpTOCNode Title="DefendDamagePointsAttribute Constructor " Url="html/08f30977-c824-ae68-ca34-df897d3d2a36.htm" />
         <HelpTOCNode Title="DefendDamagePointsAttribute Methods" Url="html/d36dc012-c881-c4bc-8909-f50b0150ae31.htm" />
-        <HelpTOCNode Id="eaf3cbf1-4aaf-4eb1-9c48-8713839907cc" Title="DefendDamagePointsAttribute Properties" Url="html/6d847c4e-79ba-5282-555d-2ade500c8742.htm">
+        <HelpTOCNode Id="2462367f-4f99-40d2-99fb-6d8f2031526f" Title="DefendDamagePointsAttribute Properties" Url="html/6d847c4e-79ba-5282-555d-2ade500c8742.htm">
           <HelpTOCNode Title="MaximumDefendDamagePerUnitRadius Property " Url="html/74fbf3c7-aa9c-9be8-2507-1b54f6e8a1e2.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bd837956-d038-47d1-98c3-8393911cfc8f" Title="EatingSpeedPointsAttribute Class" Url="html/30bf93e7-fa2e-d09b-bafc-27d2a1e74b13.htm">
+      <HelpTOCNode Id="ede4c847-e88d-4c07-b761-a2511d728d4f" Title="EatingSpeedPointsAttribute Class" Url="html/30bf93e7-fa2e-d09b-bafc-27d2a1e74b13.htm">
         <HelpTOCNode Title="EatingSpeedPointsAttribute Constructor " Url="html/56809c16-daad-39b8-f5a1-fbe407082a86.htm" />
         <HelpTOCNode Title="EatingSpeedPointsAttribute Methods" Url="html/8a8393fb-5731-559e-376d-ab1f122d126c.htm" />
-        <HelpTOCNode Id="1513ce94-74bf-43d3-ac58-79a3e7932f05" Title="EatingSpeedPointsAttribute Properties" Url="html/d49b66c6-5f8e-49d4-ae22-f506aa2d8a79.htm">
+        <HelpTOCNode Id="5954d84c-21c3-493d-84a4-be963cc79dce" Title="EatingSpeedPointsAttribute Properties" Url="html/d49b66c6-5f8e-49d4-ae22-f506aa2d8a79.htm">
           <HelpTOCNode Title="EatingSpeedPerUnitRadius Property " Url="html/fab0e19c-92a2-407f-3460-3462cf98cff2.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="400a945a-ac03-48de-9f3d-9a154167e0c3" Title="EyesightPointsAttribute Class" Url="html/5ba27c60-9ec4-ffe0-c797-738f18c6ae36.htm">
+      <HelpTOCNode Id="9e9f4cbd-0af1-4350-a777-c02c4e5ef426" Title="EyesightPointsAttribute Class" Url="html/5ba27c60-9ec4-ffe0-c797-738f18c6ae36.htm">
         <HelpTOCNode Title="EyesightPointsAttribute Constructor " Url="html/965d5e0f-866a-cab9-7fd5-9cb76459fddc.htm" />
         <HelpTOCNode Title="EyesightPointsAttribute Methods" Url="html/cc0b3858-d7ee-775d-73a0-c79b01d7b9ff.htm" />
-        <HelpTOCNode Id="2d62fc63-788b-4e4a-a707-8912f69558ed" Title="EyesightPointsAttribute Properties" Url="html/096e87f1-1c12-f2ae-18b6-1c2578164f10.htm">
+        <HelpTOCNode Id="b7596cfb-19dc-408a-83f1-541514f460f7" Title="EyesightPointsAttribute Properties" Url="html/096e87f1-1c12-f2ae-18b6-1c2578164f10.htm">
           <HelpTOCNode Title="EyesightRadius Property " Url="html/b6ddc5e0-a6df-8fc8-58bf-5674e5d1d997.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8a7b60d0-abf0-4b4f-b76f-a430f06af534" Title="MarkingColorAttribute Class" Url="html/053147a8-8634-2a3a-c860-895968d89dac.htm">
+      <HelpTOCNode Id="e6c0f349-d9bc-4cfe-8ad3-d3b393f2fedf" Title="MarkingColorAttribute Class" Url="html/053147a8-8634-2a3a-c860-895968d89dac.htm">
         <HelpTOCNode Title="MarkingColorAttribute Constructor " Url="html/e651b7a2-6c51-9649-1d29-390f34929eff.htm" />
         <HelpTOCNode Title="MarkingColorAttribute Methods" Url="html/d9673f01-ab31-3699-4798-0939d3e7d23d.htm" />
-        <HelpTOCNode Id="ac79b2c1-35f7-4086-a6b3-d49dae5dc9f7" Title="MarkingColorAttribute Properties" Url="html/d7b39a68-47c4-6865-95a0-6a1139a9d490.htm">
+        <HelpTOCNode Id="415e952b-1354-4bab-b42c-b09ac2343c0b" Title="MarkingColorAttribute Properties" Url="html/d7b39a68-47c4-6865-95a0-6a1139a9d490.htm">
           <HelpTOCNode Title="MarkingColor Property " Url="html/f90487e8-6195-62ba-72fc-5455e137218e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="fb76075c-2fab-4415-aaea-2dbcaeedf812" Title="MatureSizeAttribute Class" Url="html/e47da197-1f1d-901a-3f03-e7518dd9bb21.htm">
+      <HelpTOCNode Id="5664447a-7614-4a79-be66-b9fd55b1bca0" Title="MatureSizeAttribute Class" Url="html/e47da197-1f1d-901a-3f03-e7518dd9bb21.htm">
         <HelpTOCNode Title="MatureSizeAttribute Constructor " Url="html/abd04c02-cde3-daab-1f93-fa8eb808783e.htm" />
         <HelpTOCNode Title="MatureSizeAttribute Methods" Url="html/665a71a3-3e5d-990d-1833-e987045b1172.htm" />
-        <HelpTOCNode Id="4520c298-8343-4300-b15d-5250e2ae386f" Title="MatureSizeAttribute Properties" Url="html/305f2512-1730-dbcf-c48e-2bd61d9644e8.htm">
+        <HelpTOCNode Id="6fe94f81-b332-454c-a6b7-d157d3f598b0" Title="MatureSizeAttribute Properties" Url="html/305f2512-1730-dbcf-c48e-2bd61d9644e8.htm">
           <HelpTOCNode Title="MatureRadius Property " Url="html/49cedbc3-493e-d1c5-6720-3e51facab0f5.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="34c1a62c-0026-4cd2-aa07-936c34b818fb" Title="MaximumEnergyPointsAttribute Class" Url="html/e528e4a8-e7a0-b94f-6338-5cc3b9c9192f.htm">
+      <HelpTOCNode Id="b1039ad8-2130-42d8-abd8-7afc4e2d4154" Title="MaximumEnergyPointsAttribute Class" Url="html/e528e4a8-e7a0-b94f-6338-5cc3b9c9192f.htm">
         <HelpTOCNode Title="MaximumEnergyPointsAttribute Constructor " Url="html/e448b69e-65bd-6ad1-a786-ff9e5016edc0.htm" />
         <HelpTOCNode Title="MaximumEnergyPointsAttribute Methods" Url="html/09b2f7a3-b6c2-c54e-94a7-0729c8c73ae4.htm" />
-        <HelpTOCNode Id="6387e8fa-257c-42e4-bb1b-e0c6746f51cd" Title="MaximumEnergyPointsAttribute Properties" Url="html/54292150-322d-1441-c7e5-45432157f622.htm">
+        <HelpTOCNode Id="bba71d26-c2b9-4e68-9b96-9d14e4112fcb" Title="MaximumEnergyPointsAttribute Properties" Url="html/54292150-322d-1441-c7e5-45432157f622.htm">
           <HelpTOCNode Title="MaximumEnergyPerUnitRadius Property " Url="html/0feaeb3a-3fd3-6cad-7bec-d723458cb534.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="03320c39-96cf-4971-b9a9-ca3865617be2" Title="MaximumSpeedPointsAttribute Class" Url="html/23ae7736-d109-529b-f641-944d1fb183a2.htm">
+      <HelpTOCNode Id="c39dd013-3184-4ccc-a6d4-09848f5c58bc" Title="MaximumSpeedPointsAttribute Class" Url="html/23ae7736-d109-529b-f641-944d1fb183a2.htm">
         <HelpTOCNode Title="MaximumSpeedPointsAttribute Constructor " Url="html/64b933f4-3926-25d9-c416-5e011eae7b72.htm" />
         <HelpTOCNode Title="MaximumSpeedPointsAttribute Methods" Url="html/397f70f2-7d26-f414-a6ef-0e9e924f7aac.htm" />
-        <HelpTOCNode Id="6302b3e5-29b0-49c9-bf6b-cf05628cfed7" Title="MaximumSpeedPointsAttribute Properties" Url="html/33a1e0aa-4baf-fb9c-f8c0-4c5682888913.htm">
+        <HelpTOCNode Id="d709bf2c-2ffa-4cdf-b525-fd6457799b24" Title="MaximumSpeedPointsAttribute Properties" Url="html/33a1e0aa-4baf-fb9c-f8c0-4c5682888913.htm">
           <HelpTOCNode Title="MaximumSpeed Property " Url="html/dcfc8040-97f8-101b-02c0-9cfa412f59bc.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ee09483e-726d-46a9-962c-02353c0ad089" Title="OrganismClassAttribute Class" Url="html/10a75459-1d78-652a-89c4-a1f5c806796b.htm">
+      <HelpTOCNode Id="9d5455cc-eb9b-46df-b5d5-fcca5ade70a5" Title="OrganismClassAttribute Class" Url="html/10a75459-1d78-652a-89c4-a1f5c806796b.htm">
         <HelpTOCNode Title="OrganismClassAttribute Constructor " Url="html/cd47d466-397b-fa04-5cdd-1795c3ef1da7.htm" />
         <HelpTOCNode Title="OrganismClassAttribute Methods" Url="html/e346fce0-442b-76f1-eb3e-9ea7c98bb1d9.htm" />
-        <HelpTOCNode Id="e97dc51a-4741-4bf4-8b97-37f7ba0ad2bd" Title="OrganismClassAttribute Properties" Url="html/1431e966-ab50-5291-8bb6-93b2edaedd7c.htm">
+        <HelpTOCNode Id="d7c8123a-3cbe-42f4-8fd3-81901ae2b40a" Title="OrganismClassAttribute Properties" Url="html/1431e966-ab50-5291-8bb6-93b2edaedd7c.htm">
           <HelpTOCNode Title="ClassName Property " Url="html/b0adfe1b-d523-ba22-236d-429cc7b428dc.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d6de0d90-39ba-4e73-a544-e05508a544fe" Title="PlantSkinAttribute Class" Url="html/51a3df08-0d3d-3128-b768-f07f48aab094.htm">
-        <HelpTOCNode Id="705f8949-3203-46a4-93df-8f3d237b5312" Title="PlantSkinAttribute Constructor " Url="html/ac64d767-1625-5d0a-e291-27d692bda4d1.htm">
+      <HelpTOCNode Id="2438d0f9-7127-48a1-a444-80c500100f38" Title="PlantSkinAttribute Class" Url="html/51a3df08-0d3d-3128-b768-f07f48aab094.htm">
+        <HelpTOCNode Id="8c49e032-49df-4fd9-9c3e-4dc75a1bc1fc" Title="PlantSkinAttribute Constructor " Url="html/ac64d767-1625-5d0a-e291-27d692bda4d1.htm">
           <HelpTOCNode Title="PlantSkinAttribute Constructor (String)" Url="html/c4bdf89e-f4ac-922e-a7ad-cea0212a9fa4.htm" />
           <HelpTOCNode Title="PlantSkinAttribute Constructor (PlantSkinFamily)" Url="html/e9d95855-c8c5-ac41-e280-d943caa97a13.htm" />
           <HelpTOCNode Title="PlantSkinAttribute Constructor (PlantSkinFamily, String)" Url="html/de5ce236-a2a9-80cc-835c-53c93a95213e.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="PlantSkinAttribute Methods" Url="html/3bd77321-7092-7b8b-48fc-97781b3c62a3.htm" />
-        <HelpTOCNode Id="68f1028b-fe9a-47da-af1b-80f3829f6033" Title="PlantSkinAttribute Properties" Url="html/e00ed255-6e6f-d94a-9c71-46e63967f7fb.htm">
+        <HelpTOCNode Id="7172274c-9434-42e4-a30a-33972bda3620" Title="PlantSkinAttribute Properties" Url="html/e00ed255-6e6f-d94a-9c71-46e63967f7fb.htm">
           <HelpTOCNode Title="Skin Property " Url="html/c181a6fe-85ec-c947-1302-b28a08dfeb9f.htm" />
           <HelpTOCNode Title="SkinFamily Property " Url="html/3443694b-e73a-196e-9a15-6227835f4049.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="419abace-759e-4b06-81d6-abdd00cb72f5" Title="PointBasedCharacteristicAttribute Class" Url="html/0914429f-8330-3481-c6d2-598b05c4af5c.htm">
+      <HelpTOCNode Id="fdb6c56c-facb-49e9-afd9-60e653c15d8b" Title="PointBasedCharacteristicAttribute Class" Url="html/0914429f-8330-3481-c6d2-598b05c4af5c.htm">
         <HelpTOCNode Title="PointBasedCharacteristicAttribute Constructor " Url="html/a13f1f90-36ff-d6b4-149f-971b62f34ace.htm" />
-        <HelpTOCNode Id="6fcbedf4-1819-4fc7-9bfb-c64ef18cff61" Title="PointBasedCharacteristicAttribute Methods" Url="html/f37cbac7-4941-4b9a-39cb-18724c2ade4a.htm">
+        <HelpTOCNode Id="21dcbac0-cbac-4639-a873-92797478a882" Title="PointBasedCharacteristicAttribute Methods" Url="html/f37cbac7-4941-4b9a-39cb-18724c2ade4a.htm">
           <HelpTOCNode Title="GetWarnings Method " Url="html/2d337c50-8e3a-ad83-4e1f-641bc5797e48.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="562b2eed-a971-4574-a815-003c9c68292c" Title="PointBasedCharacteristicAttribute Properties" Url="html/e9ee6270-ee09-118c-cf72-d29e1dadca05.htm">
+        <HelpTOCNode Id="7596d1c6-02b8-4e10-b339-1394d65492e9" Title="PointBasedCharacteristicAttribute Properties" Url="html/e9ee6270-ee09-118c-cf72-d29e1dadca05.htm">
           <HelpTOCNode Title="Points Property " Url="html/c1a43225-3592-7591-8e4f-b6acd3cb922b.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="46f9405e-7db7-4293-8d4d-fdf6421ed80b" Title="SeedSpreadDistanceAttribute Class" Url="html/21df7830-2dcc-d0b2-247d-5958fd6e1fd1.htm">
+      <HelpTOCNode Id="2dc9a462-f445-48cb-80c1-317f86a54e06" Title="SeedSpreadDistanceAttribute Class" Url="html/21df7830-2dcc-d0b2-247d-5958fd6e1fd1.htm">
         <HelpTOCNode Title="SeedSpreadDistanceAttribute Constructor " Url="html/1050ebdd-cb01-4a37-0946-a73c918f525b.htm" />
         <HelpTOCNode Title="SeedSpreadDistanceAttribute Methods" Url="html/fee4efb2-1686-8878-34b8-a7fb972e78a0.htm" />
-        <HelpTOCNode Id="16404dfa-8260-4413-9673-0571251843a4" Title="SeedSpreadDistanceAttribute Properties" Url="html/0924092e-a7f7-41e4-3ce1-f49d8c8cbb3b.htm">
+        <HelpTOCNode Id="66266343-552c-4488-9c89-a59684128be2" Title="SeedSpreadDistanceAttribute Properties" Url="html/0924092e-a7f7-41e4-3ce1-f49d8c8cbb3b.htm">
           <HelpTOCNode Title="SeedSpreadDistance Property " Url="html/4365c5c3-d620-e049-b134-893fb56d83ca.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d3ca3602-9595-438a-b5b0-62ecaee0bf9b" Title="Terrarium.Sdk.Classes.Creature.Events" Url="html/520b775e-3af3-c017-7d38-fa912f60cc21.htm">
-      <HelpTOCNode Id="57d380df-7039-4807-8312-4539dd2ae389" Title="ActionResponseEventArgs Class" Url="html/05f183b8-e8aa-2104-8f9c-cee3712a9c3f.htm">
+    <HelpTOCNode Id="62eb4e17-8a89-46d6-a350-5ba744eaa4da" Title="Terrarium.Sdk.Classes.Creature.Events" Url="html/520b775e-3af3-c017-7d38-fa912f60cc21.htm">
+      <HelpTOCNode Id="25060c20-13fa-41e9-8798-e84d63cd2441" Title="ActionResponseEventArgs Class" Url="html/05f183b8-e8aa-2104-8f9c-cee3712a9c3f.htm">
         <HelpTOCNode Title="ActionResponseEventArgs Constructor " Url="html/51111dde-4cc3-606a-ffb2-f4dec88c5653.htm" />
-        <HelpTOCNode Id="a1f62a3e-017f-4d95-85c7-3796b0304e31" Title="ActionResponseEventArgs Methods" Url="html/05928d6b-a928-511f-43d0-99eeda1f5235.htm">
+        <HelpTOCNode Id="e01b38be-08cd-4d25-af9a-00c966357958" Title="ActionResponseEventArgs Methods" Url="html/05928d6b-a928-511f-43d0-99eeda1f5235.htm">
           <HelpTOCNode Title="ToString Method " Url="html/0e5e7bda-d884-9db6-07dc-4cc8fce95739.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1a3f3f40-eab9-4ba8-bc02-4bd59c3c0abd" Title="ActionResponseEventArgs Properties" Url="html/765cbbbe-d9fb-ff04-0f26-c66c9eece93e.htm">
+        <HelpTOCNode Id="61b18728-46f4-49a6-9a66-6e80181fad09" Title="ActionResponseEventArgs Properties" Url="html/765cbbbe-d9fb-ff04-0f26-c66c9eece93e.htm">
           <HelpTOCNode Title="Action Property " Url="html/3ad4d13c-cb7e-c835-4bf3-e3a3e2d74749.htm" />
           <HelpTOCNode Title="ActionID Property " Url="html/750ef474-3cfc-f4a9-0d1d-88f9fbbad85b.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="37ab011d-df53-489b-8d2f-d76163ea151c" Title="AttackCompletedEventArgs Class" Url="html/8d7617a6-f063-4529-256e-b640e1aa3852.htm">
+      <HelpTOCNode Id="94a66960-3105-4cff-b951-9cb6bad51ad6" Title="AttackCompletedEventArgs Class" Url="html/8d7617a6-f063-4529-256e-b640e1aa3852.htm">
         <HelpTOCNode Title="AttackCompletedEventArgs Constructor " Url="html/03a1bb30-82be-155b-2c3b-2b5617173dc4.htm" />
-        <HelpTOCNode Id="adb6b417-852e-430b-b273-2652adade49d" Title="AttackCompletedEventArgs Methods" Url="html/cf9ae62b-12dd-c23b-3e93-8d99628c6e69.htm">
+        <HelpTOCNode Id="2dd5dff6-8c03-4994-b38c-cdbfaec77f6d" Title="AttackCompletedEventArgs Methods" Url="html/cf9ae62b-12dd-c23b-3e93-8d99628c6e69.htm">
           <HelpTOCNode Title="ToString Method " Url="html/deae61da-a6ee-5c74-0c00-4da60310a067.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b354773c-faae-4ec1-b654-ade6fd63874b" Title="AttackCompletedEventArgs Properties" Url="html/ab93d49f-6306-1767-ba90-5dfa4c474439.htm">
+        <HelpTOCNode Id="ae0f4e29-9198-47cc-9e38-29048425d3f9" Title="AttackCompletedEventArgs Properties" Url="html/ab93d49f-6306-1767-ba90-5dfa4c474439.htm">
           <HelpTOCNode Title="AttackAction Property " Url="html/18f7740a-18f8-1eaa-c518-822cbc092090.htm" />
           <HelpTOCNode Title="Escaped Property " Url="html/737571b2-606f-6bc3-fa49-d46c222f8734.htm" />
           <HelpTOCNode Title="InflictedDamage Property " Url="html/63d8b178-391c-fa76-8010-6c8d13ce2e92.htm" />
@@ -355,99 +355,99 @@
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="AttackCompletedEventHandler Delegate" Url="html/1a3c9218-98f0-b0f4-10ec-7beaa6d1c55e.htm" />
-      <HelpTOCNode Id="a0fc026d-1c05-4169-9472-dc9ffb630557" Title="AttackedEventArgs Class" Url="html/3243ca11-9440-e0be-3a61-be78df8be882.htm">
+      <HelpTOCNode Id="7234479a-9a4c-4136-8d67-230aa4d7dccd" Title="AttackedEventArgs Class" Url="html/3243ca11-9440-e0be-3a61-be78df8be882.htm">
         <HelpTOCNode Title="AttackedEventArgs Constructor " Url="html/eab06be0-6ab2-d495-19f0-3637c03de245.htm" />
-        <HelpTOCNode Id="9e1e4e0f-33f3-4bb1-8638-2bbc69a7f6b0" Title="AttackedEventArgs Methods" Url="html/bfd86349-a68f-99a9-277d-9a86fbf013d9.htm">
+        <HelpTOCNode Id="cde02971-c29c-493c-82e8-87961c3540da" Title="AttackedEventArgs Methods" Url="html/bfd86349-a68f-99a9-277d-9a86fbf013d9.htm">
           <HelpTOCNode Title="ToString Method " Url="html/5ee7290a-6daa-7b93-8e16-4499ac652d12.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7b9f118a-4916-4030-bf04-1c15e6e38bda" Title="AttackedEventArgs Properties" Url="html/9a6a3077-c90f-c6d8-00d9-81a50f839c89.htm">
+        <HelpTOCNode Id="bab3e075-63b3-4fcd-9266-fb5b778e8d9f" Title="AttackedEventArgs Properties" Url="html/9a6a3077-c90f-c6d8-00d9-81a50f839c89.htm">
           <HelpTOCNode Title="Attacker Property " Url="html/1bb4ea63-5a97-9d7d-2bc3-7142f767303e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="AttackedEventHandler Delegate" Url="html/1c51fbe6-4191-39b2-a7e8-3a404317da2c.htm" />
-      <HelpTOCNode Id="f5e10d91-a90b-4d63-be31-3dfb1e51183f" Title="BornEventArgs Class" Url="html/e74570ef-4265-3869-f737-8d2942009ef4.htm">
+      <HelpTOCNode Id="a12e6636-8c9d-4a5e-9d0d-ce6a5e913943" Title="BornEventArgs Class" Url="html/e74570ef-4265-3869-f737-8d2942009ef4.htm">
         <HelpTOCNode Title="BornEventArgs Constructor " Url="html/ec523642-ae5d-3969-bca7-098e2750d02c.htm" />
-        <HelpTOCNode Id="0e9c2422-2106-402e-819d-279ea1b61c70" Title="BornEventArgs Methods" Url="html/dcf734a3-1fd3-06ce-a5bb-ed42270bf544.htm">
+        <HelpTOCNode Id="e803aeb7-4c36-4fb8-93a3-8eff2cafa5ac" Title="BornEventArgs Methods" Url="html/dcf734a3-1fd3-06ce-a5bb-ed42270bf544.htm">
           <HelpTOCNode Title="ToString Method " Url="html/b03667d9-8552-fb23-8883-551ad9ca279b.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="fa49e99d-10ba-4a07-b1ff-4695aa3b1b82" Title="BornEventArgs Properties" Url="html/2ff95857-9ca2-d524-eab0-1e6a791035fb.htm">
+        <HelpTOCNode Id="d8843edf-6419-43b1-b4e8-f0657434da3a" Title="BornEventArgs Properties" Url="html/2ff95857-9ca2-d524-eab0-1e6a791035fb.htm">
           <HelpTOCNode Title="Dna Property " Url="html/452a666c-abc2-6ea3-a011-aaee94243ad8.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="BornEventHandler Delegate" Url="html/b26abf5b-38be-caa5-1aaa-233068b29f9f.htm" />
-      <HelpTOCNode Id="410bcc35-4ed2-470c-88d8-c752ffa11138" Title="DefendCompletedEventArgs Class" Url="html/8ecf3058-aad3-614a-8202-d20839cf1d37.htm">
+      <HelpTOCNode Id="a0ac0ba1-0fd2-4a6d-a0bf-0227b531515c" Title="DefendCompletedEventArgs Class" Url="html/8ecf3058-aad3-614a-8202-d20839cf1d37.htm">
         <HelpTOCNode Title="DefendCompletedEventArgs Constructor " Url="html/b2ad6816-8a50-f207-e263-58476cee0814.htm" />
-        <HelpTOCNode Id="0ef78c06-8456-4345-91f0-087e99ddd27e" Title="DefendCompletedEventArgs Methods" Url="html/e7981928-f91d-97ab-8428-bea19fd1b5f0.htm">
+        <HelpTOCNode Id="d473fcb7-9980-45e2-91f5-3b1358e4710c" Title="DefendCompletedEventArgs Methods" Url="html/e7981928-f91d-97ab-8428-bea19fd1b5f0.htm">
           <HelpTOCNode Title="ToString Method " Url="html/7d199e6d-baa6-7783-7ad4-47d6bc16a899.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e2f82e08-1c90-4c31-926a-518d25be00e9" Title="DefendCompletedEventArgs Properties" Url="html/56a5db1b-899d-fe71-6b07-ee54ef05d3ee.htm">
+        <HelpTOCNode Id="f8e38423-4132-4b17-a07b-f265ec5203b9" Title="DefendCompletedEventArgs Properties" Url="html/56a5db1b-899d-fe71-6b07-ee54ef05d3ee.htm">
           <HelpTOCNode Title="DefendAction Property " Url="html/bd9dcb9b-6656-e3e4-2931-5b9af89478f5.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="DefendCompletedEventHandler Delegate" Url="html/cdd926c4-f1f0-7112-e704-056c33c738f1.htm" />
-      <HelpTOCNode Id="4e4274b0-ccbe-40ee-97f1-ded535856c12" Title="EatCompletedEventArgs Class" Url="html/670b2ff5-0743-562e-f2d9-452de2234980.htm">
+      <HelpTOCNode Id="b2e88a8d-9878-4c9d-9540-1b5663d678c0" Title="EatCompletedEventArgs Class" Url="html/670b2ff5-0743-562e-f2d9-452de2234980.htm">
         <HelpTOCNode Title="EatCompletedEventArgs Constructor " Url="html/9cfee47d-ff89-0884-d69e-619f8189900f.htm" />
-        <HelpTOCNode Id="36c205a3-827d-4114-95f6-ad7b07fc11ff" Title="EatCompletedEventArgs Methods" Url="html/a9a78566-695c-888d-557a-03e5a8ce1a56.htm">
+        <HelpTOCNode Id="e58b1157-decc-4f0a-9305-2c5f9be9a5b3" Title="EatCompletedEventArgs Methods" Url="html/a9a78566-695c-888d-557a-03e5a8ce1a56.htm">
           <HelpTOCNode Title="ToString Method " Url="html/c6446681-ec6d-978f-2441-8a002c793857.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2fe7abfc-a171-4aa8-aef8-04639371b5ed" Title="EatCompletedEventArgs Properties" Url="html/392c339c-48ab-76ef-c787-fe08dc783746.htm">
+        <HelpTOCNode Id="5634ecec-7693-418a-b427-dca674276318" Title="EatCompletedEventArgs Properties" Url="html/392c339c-48ab-76ef-c787-fe08dc783746.htm">
           <HelpTOCNode Title="EatAction Property " Url="html/d845bea3-7499-bbd7-b7d3-0c1db23d7e3e.htm" />
           <HelpTOCNode Title="Successful Property " Url="html/584814fe-b469-7d12-eb18-bd4178be0c7e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="EatCompletedEventHandler Delegate" Url="html/18c10a27-033d-edb8-df33-33a87d23435c.htm" />
-      <HelpTOCNode Id="6f2898b6-bc54-4321-b91f-3fb1195df258" Title="IdleEventArgs Class" Url="html/78e5abfa-d9a7-4ead-8da8-b1e0f5ff1e92.htm">
+      <HelpTOCNode Id="50900ca5-148e-49f7-8610-77a92439ac33" Title="IdleEventArgs Class" Url="html/78e5abfa-d9a7-4ead-8da8-b1e0f5ff1e92.htm">
         <HelpTOCNode Title="IdleEventArgs Constructor " Url="html/9b4179e0-fb83-f422-29a3-edfa51824010.htm" />
         <HelpTOCNode Title="IdleEventArgs Methods" Url="html/d2a5111d-2db0-57a8-003e-69c260e20439.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="IdleEventHandler Delegate" Url="html/b6d340a6-38bf-4eb2-ff6b-9f4fa9e0a098.htm" />
-      <HelpTOCNode Id="f3314878-591b-409b-b175-ec3c66acfab3" Title="LoadEventArgs Class" Url="html/77687a8e-2d05-22cc-360d-c624660f5c52.htm">
+      <HelpTOCNode Id="438a3012-d5bb-4e18-82d9-11ab0c07d603" Title="LoadEventArgs Class" Url="html/77687a8e-2d05-22cc-360d-c624660f5c52.htm">
         <HelpTOCNode Title="LoadEventArgs Constructor " Url="html/13a58133-86a8-616e-18ac-7a1f14926ab6.htm" />
         <HelpTOCNode Title="LoadEventArgs Methods" Url="html/509b5115-4353-305b-958d-c4e1966aeda6.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="LoadEventHandler Delegate" Url="html/a18bcb7a-a554-8279-cd8b-7241eeb2cf54.htm" />
-      <HelpTOCNode Id="61e8d793-f097-4858-a5fe-589e33891982" Title="MoveCompletedEventArgs Class" Url="html/10efb9ba-edbd-c324-301f-2957ed616443.htm">
+      <HelpTOCNode Id="28997713-444b-4a76-a17d-17da3995c0e2" Title="MoveCompletedEventArgs Class" Url="html/10efb9ba-edbd-c324-301f-2957ed616443.htm">
         <HelpTOCNode Title="MoveCompletedEventArgs Constructor " Url="html/a5652744-64b3-da98-c41b-b1713db7132f.htm" />
-        <HelpTOCNode Id="4733b22b-b11d-4562-bd7a-0e0c8bf7af02" Title="MoveCompletedEventArgs Methods" Url="html/112470a9-a7db-b2de-8538-50b0c793db07.htm">
+        <HelpTOCNode Id="f6348e9e-a06a-498c-b4aa-0dddadc017ff" Title="MoveCompletedEventArgs Methods" Url="html/112470a9-a7db-b2de-8538-50b0c793db07.htm">
           <HelpTOCNode Title="ToString Method " Url="html/9e766265-96f5-babf-68d0-f63e28c468bc.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="cb44d64c-1afe-4939-9fc2-689fdc752dfb" Title="MoveCompletedEventArgs Properties" Url="html/6393f100-3914-6c11-d24d-4b65682ecdc1.htm">
+        <HelpTOCNode Id="2fad83ae-501b-474b-8919-29b4b701edd1" Title="MoveCompletedEventArgs Properties" Url="html/6393f100-3914-6c11-d24d-4b65682ecdc1.htm">
           <HelpTOCNode Title="BlockingOrganism Property " Url="html/674dc7cb-e78f-84e8-6b96-6d19f53b4cfd.htm" />
           <HelpTOCNode Title="MoveToAction Property " Url="html/cbc216a1-725d-8908-4cc0-5cc431fd6d11.htm" />
           <HelpTOCNode Title="Reason Property " Url="html/b0e90f4a-9d75-8223-f519-a3e6c840bb95.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="MoveCompletedEventHandler Delegate" Url="html/f6b36c94-7ccb-e45d-f1f4-8d70d535537c.htm" />
-      <HelpTOCNode Id="30ad10f7-fa77-4b06-907a-8c890a420455" Title="OrganismEventArgs Class" Url="html/b8e9027b-1d24-f663-033f-427e9fed6731.htm">
+      <HelpTOCNode Id="d2c139e9-b346-46ee-add7-1ce83d1b8616" Title="OrganismEventArgs Class" Url="html/b8e9027b-1d24-f663-033f-427e9fed6731.htm">
         <HelpTOCNode Title="OrganismEventArgs Constructor " Url="html/5bb2f4ce-47f6-4398-e550-89e95a996a17.htm" />
         <HelpTOCNode Title="OrganismEventArgs Methods" Url="html/7643e67c-ec95-0197-5351-85ee2292b80c.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3f6aaf26-6bc5-4a08-a913-f41cf8084c0c" Title="ReproduceCompletedEventArgs Class" Url="html/fe02b332-871d-c60b-3494-67bc05924709.htm">
+      <HelpTOCNode Id="b7f991ac-22e9-49f6-b96e-d5204cfe7d7b" Title="ReproduceCompletedEventArgs Class" Url="html/fe02b332-871d-c60b-3494-67bc05924709.htm">
         <HelpTOCNode Title="ReproduceCompletedEventArgs Constructor " Url="html/114f4181-8f77-577b-938d-616ab74e03ae.htm" />
-        <HelpTOCNode Id="4271152b-8614-4642-9116-bd5d6379defe" Title="ReproduceCompletedEventArgs Methods" Url="html/903b60ce-a218-310a-999f-33743a5ab418.htm">
+        <HelpTOCNode Id="b25e4e9c-01c1-4fc3-bb60-06daea5d5081" Title="ReproduceCompletedEventArgs Methods" Url="html/903b60ce-a218-310a-999f-33743a5ab418.htm">
           <HelpTOCNode Title="ToString Method " Url="html/f0e19bf0-a37d-de7b-abef-a63a95b28664.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b6d81c8d-87bc-47c4-9fa8-f4833d788b4a" Title="ReproduceCompletedEventArgs Properties" Url="html/783c4181-5c18-a057-dd27-b4398f2abe6d.htm">
+        <HelpTOCNode Id="e9347868-9c0d-4d1e-a264-98a707df1de9" Title="ReproduceCompletedEventArgs Properties" Url="html/783c4181-5c18-a057-dd27-b4398f2abe6d.htm">
           <HelpTOCNode Title="ReproduceAction Property " Url="html/a8ad42a6-3baa-342f-31ba-ea6bdf40751d.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="ReproduceCompletedEventHandler Delegate" Url="html/6f98baaf-4236-76d4-e1f9-18c0fb30c6fc.htm" />
-      <HelpTOCNode Id="f93dc4b3-b3d4-44f1-a8a5-d3cb03c6f6c9" Title="TeleportedEventArgs Class" Url="html/c01ba033-1717-c7dd-1f4a-b33722fe1d09.htm">
+      <HelpTOCNode Id="bf3cc006-0fcd-4066-9771-aaa12365b37b" Title="TeleportedEventArgs Class" Url="html/c01ba033-1717-c7dd-1f4a-b33722fe1d09.htm">
         <HelpTOCNode Title="TeleportedEventArgs Constructor " Url="html/4af33391-b01b-f1c0-98da-7f34a963ea74.htm" />
-        <HelpTOCNode Id="f3bec4ba-e4d9-43da-9113-1c7619a7d7cb" Title="TeleportedEventArgs Methods" Url="html/5bbe0375-2395-6604-3481-ce0cb502eb78.htm">
+        <HelpTOCNode Id="cd050a50-1bc5-4b16-8e0f-029825cabf80" Title="TeleportedEventArgs Methods" Url="html/5bbe0375-2395-6604-3481-ce0cb502eb78.htm">
           <HelpTOCNode Title="ToString Method " Url="html/d657698e-dc72-e8af-eff5-ff212493e3eb.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="74e404fa-df9d-47a1-8916-33565e04ccee" Title="TeleportedEventArgs Properties" Url="html/54608682-889c-ba8e-3cbf-39e48bb8e136.htm">
+        <HelpTOCNode Id="adc59ff7-f81a-4a0d-bb01-4001669633f6" Title="TeleportedEventArgs Properties" Url="html/54608682-889c-ba8e-3cbf-39e48bb8e136.htm">
           <HelpTOCNode Title="LocalTeleport Property " Url="html/00d83707-dc30-dd26-633d-5edc6aba6d7e.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="TeleportedEventHandler Delegate" Url="html/bfc98a62-7f35-7986-3f8e-147879248bc9.htm" />
       <HelpTOCNode Title="TraceEventHandler Delegate" Url="html/eee25b2d-2fa1-c02e-51ad-19d22a9b5d2d.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="abaf6df3-c2b2-431b-8aa3-3071d8e1aceb" Title="Terrarium.Sdk.Classes.Engine" Url="html/f5137139-505d-c916-0d4b-4a5e08f70cc7.htm">
-      <HelpTOCNode Id="ef4be851-d1ea-4160-967d-643726968b0c" Title="EngineSettings Class" Url="html/b05d7946-ba9a-fc0d-b514-5867b551d9c8.htm">
+    <HelpTOCNode Id="b7cacc42-8334-4c1f-b557-fdf9de52a22e" Title="Terrarium.Sdk.Classes.Engine" Url="html/f5137139-505d-c916-0d4b-4a5e08f70cc7.htm">
+      <HelpTOCNode Id="bbaee049-556f-4058-b6a7-30775ef3726b" Title="EngineSettings Class" Url="html/b05d7946-ba9a-fc0d-b514-5867b551d9c8.htm">
         <HelpTOCNode Title="EngineSettings Constructor " Url="html/f5a963bb-adee-7976-8f2d-bb0374e092d8.htm" />
-        <HelpTOCNode Id="b7fe9f1a-aa18-42f1-9920-3b707a39a51b" Title="EngineSettings Fields" Url="html/886f9be3-57c6-e991-c7b2-3f5d85184a59.htm">
+        <HelpTOCNode Id="0c9bfdb6-049b-4bfc-a63c-d737f623e8af" Title="EngineSettings Fields" Url="html/886f9be3-57c6-e991-c7b2-3f5d85184a59.htm">
           <HelpTOCNode Title="AnimalIncubationEnergyMultiplier Field" Url="html/23727f44-f1d8-6f98-d73b-a3e4bc5f98a1.htm" />
           <HelpTOCNode Title="AnimalIncubationEnergyPerUnitOfRadius Field" Url="html/fb9e8d8e-d2f7-4bd8-3492-105819893b11.htm" />
           <HelpTOCNode Title="AnimalLifeSpanPerUnitMaximumRadius Field" Url="html/95435ff8-4efa-6dc6-d6ff-86faedc33722.htm" />
@@ -508,118 +508,118 @@
           <HelpTOCNode Title="ViewPortHeight Field" Url="html/9339d7ea-01bb-3140-9aa3-3de42fd11a88.htm" />
           <HelpTOCNode Title="ViewPortWidth Field" Url="html/b35ad4c8-104a-cbbf-a213-3553217555b4.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9cea6bd4-2dd5-4e8f-a2bb-cd42483f9388" Title="EngineSettings Methods" Url="html/fdf7669d-0725-642f-6945-3f1cecf02acf.htm">
+        <HelpTOCNode Id="c040e792-4528-40cf-8732-d61adeecfb0f" Title="EngineSettings Methods" Url="html/fdf7669d-0725-642f-6945-3f1cecf02acf.htm">
           <HelpTOCNode Title="EngineSettingsAsserts Method " Url="html/72d89b75-792f-541e-476d-95714fa19791.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="13b53f4a-73b5-45d3-8613-bd660d7971a9" Title="Terrarium.Sdk.Classes.Engine.Exceptions" Url="html/3125d684-d536-73fd-2924-7137077e262e.htm">
-      <HelpTOCNode Id="24ae7cb0-ce31-47d0-b503-602cca511e44" Title="AlreadyFullException Class" Url="html/36656601-f6fb-9f17-8725-6974400f566a.htm">
+    <HelpTOCNode Id="6ccf1d9f-08b1-41c3-8e9a-8ee992094e40" Title="Terrarium.Sdk.Classes.Engine.Exceptions" Url="html/3125d684-d536-73fd-2924-7137077e262e.htm">
+      <HelpTOCNode Id="dae40348-c129-47fc-9eb0-1d88dd1847d0" Title="AlreadyFullException Class" Url="html/36656601-f6fb-9f17-8725-6974400f566a.htm">
         <HelpTOCNode Title="AlreadyFullException Methods" Url="html/6b5e74ca-b40a-6ee6-ee4c-719d3435e906.htm" />
         <HelpTOCNode Title="AlreadyFullException Properties" Url="html/80480670-652c-8f96-5d7f-b8bf810ba980.htm" />
         <HelpTOCNode Title="AlreadyFullException Events" Url="html/922f2c96-c7eb-639d-9d10-5e01fa6ecb34.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b26da3e7-e1fc-48d4-8442-17387832184e" Title="AlreadyReproducingException Class" Url="html/1be63d92-2a66-2bb5-6374-b700f8a6adcd.htm">
+      <HelpTOCNode Id="ac2c5589-521d-4aac-8762-d3fb1de15dc9" Title="AlreadyReproducingException Class" Url="html/1be63d92-2a66-2bb5-6374-b700f8a6adcd.htm">
         <HelpTOCNode Title="AlreadyReproducingException Methods" Url="html/cff2ff6e-d3e2-79af-82b2-1b1c03927ede.htm" />
         <HelpTOCNode Title="AlreadyReproducingException Properties" Url="html/c1b7161b-cd15-0773-499c-b63036cdb775.htm" />
         <HelpTOCNode Title="AlreadyReproducingException Events" Url="html/c539aca9-70b6-bf76-4a47-9f8c7e0cd464.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="985466e4-93ce-4059-bbb2-bffe77170045" Title="GameEngineException Class" Url="html/7e811cb4-d884-3a68-3c67-584236345756.htm">
+      <HelpTOCNode Id="a81629f4-c283-4542-8f2a-c49f8136ac77" Title="GameEngineException Class" Url="html/7e811cb4-d884-3a68-3c67-584236345756.htm">
         <HelpTOCNode Title="GameEngineException Constructor " Url="html/0c33d4c1-912b-3e84-a06a-0823f7e76128.htm" />
         <HelpTOCNode Title="GameEngineException Methods" Url="html/cac9ba82-617d-5ab4-fa27-c8c0133fd213.htm" />
         <HelpTOCNode Title="GameEngineException Properties" Url="html/867fe993-b2dc-5a59-e3f0-dcf306268e7d.htm" />
         <HelpTOCNode Title="GameEngineException Events" Url="html/21f19b81-8a37-e374-a956-793c57394782.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cc97f516-e010-43d8-b868-85ccba99af10" Title="ImproperFoodException Class" Url="html/370cbc26-7804-293e-925c-ac2a36e126fd.htm">
+      <HelpTOCNode Id="cecbbfaa-64bc-4993-84b2-60f656bedd34" Title="ImproperFoodException Class" Url="html/370cbc26-7804-293e-925c-ac2a36e126fd.htm">
         <HelpTOCNode Title="ImproperFoodException Methods" Url="html/2c51b7c7-39f4-adf3-4e50-c99262057aea.htm" />
         <HelpTOCNode Title="ImproperFoodException Properties" Url="html/afd9e74c-9d15-2c29-9112-e12eebaccef7.htm" />
         <HelpTOCNode Title="ImproperFoodException Events" Url="html/7d27efbf-a92a-aba6-358b-b899e92328eb.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="35d192fd-17b8-403d-9233-b9f45957bd00" Title="NotDeadException Class" Url="html/d5b915e0-32b8-a18d-11bd-c8684546a2c2.htm">
+      <HelpTOCNode Id="c04c1409-ef21-441b-a473-1ea1378e01ba" Title="NotDeadException Class" Url="html/d5b915e0-32b8-a18d-11bd-c8684546a2c2.htm">
         <HelpTOCNode Title="NotDeadException Methods" Url="html/08a9ba6b-2394-5ce0-0797-aae5b6bc5739.htm" />
         <HelpTOCNode Title="NotDeadException Properties" Url="html/9839c01c-1fde-8639-2bdc-b55c58d088f3.htm" />
         <HelpTOCNode Title="NotDeadException Events" Url="html/f2fc91a0-956f-f3c6-5a30-6c80188ddc45.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8af2721b-3edb-42c7-8d6a-f29ae8d8a57f" Title="NotEnoughEnergyException Class" Url="html/afa82467-39be-7b5c-83b2-c7ed280bf07d.htm">
+      <HelpTOCNode Id="7b240dde-16ad-4ae5-83b3-a6c386003615" Title="NotEnoughEnergyException Class" Url="html/afa82467-39be-7b5c-83b2-c7ed280bf07d.htm">
         <HelpTOCNode Title="NotEnoughEnergyException Methods" Url="html/f3a144ec-56da-cddc-3d74-edaf6ce458d7.htm" />
         <HelpTOCNode Title="NotEnoughEnergyException Properties" Url="html/e61a7f77-5127-1f30-e76f-330d18945248.htm" />
         <HelpTOCNode Title="NotEnoughEnergyException Events" Url="html/fccfb854-2cf8-847b-4bf6-f061c1f037b4.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="47130f2f-6913-4f72-8292-3dca6ebb5a10" Title="NotHungryException Class" Url="html/5ff4c7e4-d4ac-41a0-0087-f77ec4f1cdd4.htm">
+      <HelpTOCNode Id="61ad682a-240c-487c-8cc3-6b539db69796" Title="NotHungryException Class" Url="html/5ff4c7e4-d4ac-41a0-0087-f77ec4f1cdd4.htm">
         <HelpTOCNode Title="NotHungryException Methods" Url="html/ae5f0c7f-7174-60f6-efb4-34dd96bc7ecf.htm" />
         <HelpTOCNode Title="NotHungryException Properties" Url="html/cf122a81-5f71-7051-6d6a-32a02447f4c2.htm" />
         <HelpTOCNode Title="NotHungryException Events" Url="html/36eb6aa1-4170-066f-91d9-d94025a5d9f0.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3b32b594-ca7d-4996-9292-5a7e35af1865" Title="NotMatureException Class" Url="html/09d8051c-c8e2-c074-ae7f-ae3104cd7251.htm">
+      <HelpTOCNode Id="9f26495d-9286-46c7-8a5a-dcd1a5545374" Title="NotMatureException Class" Url="html/09d8051c-c8e2-c074-ae7f-ae3104cd7251.htm">
         <HelpTOCNode Title="NotMatureException Methods" Url="html/e22c6fb7-ee28-0c89-5f4b-0c5d0b205998.htm" />
         <HelpTOCNode Title="NotMatureException Properties" Url="html/12d4ef39-813e-7008-bfe6-0282cd95481e.htm" />
         <HelpTOCNode Title="NotMatureException Events" Url="html/8adc5f7e-de44-6b4a-23c8-98a35374092d.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="621a8142-dd5e-4e6e-9036-1720e07b9293" Title="NotReadyToReproduceException Class" Url="html/b27c472e-6eab-8bf0-a3d1-51194b71d584.htm">
+      <HelpTOCNode Id="4a83200c-8deb-4406-80f1-2b38f19ac8ae" Title="NotReadyToReproduceException Class" Url="html/b27c472e-6eab-8bf0-a3d1-51194b71d584.htm">
         <HelpTOCNode Title="NotReadyToReproduceException Methods" Url="html/c6e384ed-1600-ca5f-0256-e1baf0ef41ac.htm" />
         <HelpTOCNode Title="NotReadyToReproduceException Properties" Url="html/2c6f9d74-cefd-aac3-64e7-dbe3bd21aeb6.htm" />
         <HelpTOCNode Title="NotReadyToReproduceException Events" Url="html/e830b019-389c-734b-7d3f-01391c6b0ab3.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6300f5b9-c5cd-4c26-86a5-e94deeb1a333" Title="NotVisibleException Class" Url="html/5d201f36-921d-21e3-66f1-e989576d0cf8.htm">
+      <HelpTOCNode Id="25b98a95-b255-413b-b2e9-c530e68e929c" Title="NotVisibleException Class" Url="html/5d201f36-921d-21e3-66f1-e989576d0cf8.htm">
         <HelpTOCNode Title="NotVisibleException Methods" Url="html/d6a8893e-5021-2afd-5ab4-0b6f94b06e80.htm" />
         <HelpTOCNode Title="NotVisibleException Properties" Url="html/99041e2d-4c80-7e01-9e3c-014038fa9cd1.htm" />
         <HelpTOCNode Title="NotVisibleException Events" Url="html/dcd8af32-87e3-049a-b49e-673b1b3fd8b6.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a45f20f7-ded7-4d83-9f02-57554eba5a33" Title="NotWithinDistanceException Class" Url="html/9ce785bb-906a-e06e-696d-8041bb7ee31b.htm">
+      <HelpTOCNode Id="1fe6ecdb-6766-4ab7-8196-2326897ccc29" Title="NotWithinDistanceException Class" Url="html/9ce785bb-906a-e06e-696d-8041bb7ee31b.htm">
         <HelpTOCNode Title="NotWithinDistanceException Methods" Url="html/dc9e7c85-e340-38d0-e4c9-944a4a749de0.htm" />
         <HelpTOCNode Title="NotWithinDistanceException Properties" Url="html/56c6e685-296a-f8e9-0211-52e571e69ae3.htm" />
         <HelpTOCNode Title="NotWithinDistanceException Events" Url="html/0b6dc6b4-8cf3-e746-a1fa-a7aa6d96f200.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cbc1f4ef-5add-455b-9894-3ad9af15496d" Title="OrganismException Class" Url="html/e0859607-3e56-e377-0123-ca863fafc942.htm">
+      <HelpTOCNode Id="c0e26a3b-ef4f-46ed-af53-e15dfa60b2d2" Title="OrganismException Class" Url="html/e0859607-3e56-e377-0123-ca863fafc942.htm">
         <HelpTOCNode Title="OrganismException Methods" Url="html/88e59a47-8b70-a4f6-69e2-56a9ab70f33f.htm" />
         <HelpTOCNode Title="OrganismException Properties" Url="html/5172732e-ff01-7c11-2a2e-0dfad3f7be70.htm" />
         <HelpTOCNode Title="OrganismException Events" Url="html/1071da68-4c9e-7a6d-fc3f-ffd966ae749f.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5d37e52f-46bd-4b4b-b3a4-ace773d05905" Title="OutOfBoundsException Class" Url="html/b835a496-945d-a0e3-c8d6-3d46928eed81.htm">
+      <HelpTOCNode Id="203a1810-5c73-4d23-b39b-f2cc5e1a2e33" Title="OutOfBoundsException Class" Url="html/b835a496-945d-a0e3-c8d6-3d46928eed81.htm">
         <HelpTOCNode Title="OutOfBoundsException Methods" Url="html/1e58f474-54f1-c34f-c78a-40c084287cfc.htm" />
         <HelpTOCNode Title="OutOfBoundsException Properties" Url="html/2c24c9bf-9bce-a943-2daf-f4baad93e2cc.htm" />
         <HelpTOCNode Title="OutOfBoundsException Events" Url="html/a617ab8b-4f94-9758-9c44-badf73e4028a.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="526e5550-1e8a-453d-aa60-f8bf286f34bb" Title="SizeOutOfRangeCharacteristicException Class" Url="html/0a32c1e4-003b-c957-0c84-a3214127c740.htm">
+      <HelpTOCNode Id="859e2d7e-8a2a-40ad-b69c-3503eb3cdb8b" Title="SizeOutOfRangeCharacteristicException Class" Url="html/0a32c1e4-003b-c957-0c84-a3214127c740.htm">
         <HelpTOCNode Title="SizeOutOfRangeCharacteristicException Constructor " Url="html/cc4fcc24-b4bf-1734-65e9-495ae7f74b13.htm" />
         <HelpTOCNode Title="SizeOutOfRangeCharacteristicException Methods" Url="html/86c80e09-2d9d-600c-27c1-3115e3cbbaf4.htm" />
         <HelpTOCNode Title="SizeOutOfRangeCharacteristicException Properties" Url="html/7be6d889-777b-e812-b862-59fb55976fec.htm" />
         <HelpTOCNode Title="SizeOutOfRangeCharacteristicException Events" Url="html/698df9a3-fefd-c70f-9700-aaea5c090bc5.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="86bbfee8-3532-4426-b3cc-f257b2ce474d" Title="TooFastException Class" Url="html/0e8f887e-aa53-fb70-f7f9-747efb3ff237.htm">
+      <HelpTOCNode Id="141f1569-bd4a-43fb-8a47-2ec8ff38c705" Title="TooFastException Class" Url="html/0e8f887e-aa53-fb70-f7f9-747efb3ff237.htm">
         <HelpTOCNode Title="TooFastException Methods" Url="html/600918bb-968f-99f2-abcd-8fd3b988bdf4.htm" />
         <HelpTOCNode Title="TooFastException Properties" Url="html/430620d5-e564-b0fa-5898-7d3eaacc8846.htm" />
         <HelpTOCNode Title="TooFastException Events" Url="html/024d8b5d-d113-1455-fd21-90b1021ae22b.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1add224a-8807-42ba-b2bf-aeea8be4eb57" Title="TooManyPointsOnOneCharacteristicException Class" Url="html/e8473a1b-b7f1-9abc-684f-516ce83d1d6b.htm">
+      <HelpTOCNode Id="35d0ece5-6a75-441e-b846-7bd18e7db365" Title="TooManyPointsOnOneCharacteristicException Class" Url="html/e8473a1b-b7f1-9abc-684f-516ce83d1d6b.htm">
         <HelpTOCNode Title="TooManyPointsOnOneCharacteristicException Constructor " Url="html/c05dbc8b-7f4b-9c84-d1f7-0012836f89d2.htm" />
         <HelpTOCNode Title="TooManyPointsOnOneCharacteristicException Methods" Url="html/b74eb888-ad6e-328f-9c47-2c1fc679d250.htm" />
         <HelpTOCNode Title="TooManyPointsOnOneCharacteristicException Properties" Url="html/6160fd7b-0562-0037-13be-88997ce6ff2a.htm" />
         <HelpTOCNode Title="TooManyPointsOnOneCharacteristicException Events" Url="html/09b7b0b6-acd8-9886-fd66-9d2f4fecb70a.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="aac40868-eb53-4069-9ac8-30f6e40008ab" Title="Terrarium.Sdk.Classes.Helpers" Url="html/50358d42-2a27-aaae-25c7-0e605442a467.htm">
-      <HelpTOCNode Id="20e15858-3586-4a2e-9766-a50206af1bab" Title="Point Class" Url="html/94e731a5-d0c6-a440-793d-ccf0867839ed.htm">
-        <HelpTOCNode Id="e95d66f0-4ff1-42ce-b4e5-cd79941cc9e9" Title="Point Constructor " Url="html/89104d7c-599b-249d-2535-8951c5aec2e8.htm">
+    <HelpTOCNode Id="4d1c2405-dcba-4300-a76f-a7f68520a07d" Title="Terrarium.Sdk.Classes.Helpers" Url="html/50358d42-2a27-aaae-25c7-0e605442a467.htm">
+      <HelpTOCNode Id="228965cb-0fb5-46a6-b375-21454fcd8227" Title="Point Class" Url="html/94e731a5-d0c6-a440-793d-ccf0867839ed.htm">
+        <HelpTOCNode Id="9e1959c7-90ae-454e-8cb0-faeafd8d72d4" Title="Point Constructor " Url="html/89104d7c-599b-249d-2535-8951c5aec2e8.htm">
           <HelpTOCNode Title="Point Constructor " Url="html/7612d3ff-fc91-774d-361c-93971b14dcc2.htm" />
           <HelpTOCNode Title="Point Constructor (Int32, Int32)" Url="html/af70a0ef-092b-27af-7944-add6f8a557c5.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1576025d-1a71-45ba-a31d-134313fbbb91" Title="Point Fields" Url="html/bee61784-91e0-c745-331a-4d186573ff16.htm">
+        <HelpTOCNode Id="874d2d97-b561-4735-8c0b-a3b117b77018" Title="Point Fields" Url="html/bee61784-91e0-c745-331a-4d186573ff16.htm">
           <HelpTOCNode Title="Empty Field" Url="html/60d8a469-1efc-043f-8015-e9c3af11e79c.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Point Methods" Url="html/c57f33d6-de91-c71a-9c81-bad41d98ce8f.htm" />
-        <HelpTOCNode Id="fd1e37d8-b212-4d94-ab2f-970bb4e6ee71" Title="Point Properties" Url="html/f366252e-4eae-3247-191e-777ba4647fc7.htm">
+        <HelpTOCNode Id="c84facaa-6598-49d7-8f1a-7cdc424b4dfa" Title="Point Properties" Url="html/f366252e-4eae-3247-191e-777ba4647fc7.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/0fcfffe4-730a-f4d2-5083-367931f42f08.htm" />
           <HelpTOCNode Title="X Property " Url="html/d1689ff6-6a4f-3799-e284-aebcadbaeec3.htm" />
           <HelpTOCNode Title="Y Property " Url="html/8e5c8f45-beb3-764f-4a1d-f90743a637ce.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ead4530d-6080-4f96-a980-175cb628bd64" Title="Vector Class" Url="html/d22ff610-058c-18d0-7484-bd802ff30401.htm">
-        <HelpTOCNode Id="04cd0c0f-83dd-46b5-bddf-55782c773f28" Title="Vector Constructor " Url="html/9db78d47-370d-5c8c-3574-8da125a290c8.htm">
+      <HelpTOCNode Id="057c7ecb-cd0f-49f0-bfc9-a0903bf50b6e" Title="Vector Class" Url="html/d22ff610-058c-18d0-7484-bd802ff30401.htm">
+        <HelpTOCNode Id="1708704d-d276-47d4-ad39-7559f68a204f" Title="Vector Constructor " Url="html/9db78d47-370d-5c8c-3574-8da125a290c8.htm">
           <HelpTOCNode Title="Vector Constructor (Point)" Url="html/e3960954-dfdf-b22a-a8e1-121d430e0a9c.htm" />
           <HelpTOCNode Title="Vector Constructor (Double, Double)" Url="html/b292bfe4-0fa8-3d56-17d8-d44fb7471e7a.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3c9fb36f-ed6b-417f-aa62-8580e223f241" Title="Vector Methods" Url="html/c61ecd2e-6312-4cac-53ac-6139aaabf22f.htm">
+        <HelpTOCNode Id="1d723045-0fda-406d-82f7-56f19bb17d69" Title="Vector Methods" Url="html/c61ecd2e-6312-4cac-53ac-6139aaabf22f.htm">
           <HelpTOCNode Title="Add Method " Url="html/8a060c27-c3e0-0320-fb49-68c2a18ed0d1.htm" />
           <HelpTOCNode Title="GetUnitVector Method " Url="html/c721bdeb-5cd4-eb0f-8b8c-e778a3abe1b8.htm" />
           <HelpTOCNode Title="Rotate Method " Url="html/e7c50663-f4b0-9797-989e-63b466b59427.htm" />
@@ -629,7 +629,7 @@
           <HelpTOCNode Title="ToRadians Method " Url="html/8f422569-cf30-a9e5-14ae-f92fd6cfb7a6.htm" />
           <HelpTOCNode Title="ToString Method " Url="html/1d5f8eb8-e2c5-f80b-db5a-8250a038a0ab.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="52c8738c-d2da-4522-9948-2ec845f4f8bc" Title="Vector Properties" Url="html/76d0ea6c-2a7e-117f-01ff-b4a67254eb92.htm">
+        <HelpTOCNode Id="ac19fc90-ecd4-4f21-981c-69f895c9bb12" Title="Vector Properties" Url="html/76d0ea6c-2a7e-117f-01ff-b4a67254eb92.htm">
           <HelpTOCNode Title="Direction Property " Url="html/58ec69c6-c41c-034e-021e-4386e019f1a0.htm" />
           <HelpTOCNode Title="Magnitude Property " Url="html/739cd2c7-406a-c224-16aa-dad0d4ace916.htm" />
           <HelpTOCNode Title="Point Property " Url="html/db73bc96-9542-fed3-2f9d-88e8b7f3a127.htm" />
@@ -639,10 +639,10 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2243d14b-90b2-473e-bea4-7660cbea5d47" Title="Terrarium.Sdk.Classes.State" Url="html/985120c3-322c-fad4-f834-0938cc93ac11.htm">
-      <HelpTOCNode Id="79b992be-cec6-40d6-84d8-b67c6a3c6475" Title="AnimalState Class" Url="html/350c64b4-34f0-e92a-8cd7-b8ddc102f871.htm">
+    <HelpTOCNode Id="c68022fb-3413-47f7-9f1b-2a89f0d36129" Title="Terrarium.Sdk.Classes.State" Url="html/985120c3-322c-fad4-f834-0938cc93ac11.htm">
+      <HelpTOCNode Id="f9b6eb98-f112-4153-847c-8db43b3a3718" Title="AnimalState Class" Url="html/350c64b4-34f0-e92a-8cd7-b8ddc102f871.htm">
         <HelpTOCNode Title="AnimalState Constructor " Url="html/f500b803-267a-4df8-faf9-f52b88f78baa.htm" />
-        <HelpTOCNode Id="3fa5b91e-cb31-4cbe-bfc3-ec999f31ae4a" Title="AnimalState Methods" Url="html/787a6370-086d-9875-bbee-717fc0fecccf.htm">
+        <HelpTOCNode Id="9e6cb55c-12e1-44d3-8315-3474281ba761" Title="AnimalState Methods" Url="html/787a6370-086d-9875-bbee-717fc0fecccf.htm">
           <HelpTOCNode Title="AddRotTick Method " Url="html/e9ac4f38-ec36-c168-9b03-8b4c3ed01dc0.htm" />
           <HelpTOCNode Title="CauseDamage Method " Url="html/c7e0a1b6-ec1f-b28b-ebe6-970d459c4eb9.htm" />
           <HelpTOCNode Title="CloneMutable Method " Url="html/9c825a15-f0b0-4eeb-c780-6d131f4c93ce.htm" />
@@ -651,7 +651,7 @@
           <HelpTOCNode Title="HealDamage Method " Url="html/95e47c0f-33f2-5011-512e-8a90e6590843.htm" />
           <HelpTOCNode Title="IncreaseRadiusTo Method " Url="html/f6741a77-1bbb-1c0d-3734-a5a9a8c5be84.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5884ccb0-b89b-41da-aa5e-7916404171ab" Title="AnimalState Properties" Url="html/b0fa9a57-2a8f-5639-c82b-1e7b27ad2407.htm">
+        <HelpTOCNode Id="b8384a49-adf9-482c-aa0a-5b64da731740" Title="AnimalState Properties" Url="html/b0fa9a57-2a8f-5639-c82b-1e7b27ad2407.htm">
           <HelpTOCNode Title="AnimalSpecies Property " Url="html/0f4775c6-7865-4854-2708-a76a5a4cd776.htm" />
           <HelpTOCNode Title="Antennas Property " Url="html/7e84dff8-37f7-eeaf-9a42-3efc5c237de4.htm" />
           <HelpTOCNode Title="Damage Property " Url="html/79c044b5-3783-5261-292f-e52fccacba62.htm" />
@@ -660,11 +660,11 @@
           <HelpTOCNode Title="RotTicks Property " Url="html/f07bf3e8-247f-87d0-e539-d5ba7686cdb1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="550fe565-3192-48e7-8c95-c3d3b55e66a9" Title="OrganismState Class" Url="html/6046e4af-0a46-6a0a-f2e5-1d786d367222.htm">
-        <HelpTOCNode Id="5359a155-ad77-4047-be3a-8830cda16ab2" Title="OrganismState Fields" Url="html/d1fc7cc4-1c5b-f6fe-dfe8-221dc3f2c12b.htm">
+      <HelpTOCNode Id="75f1ab84-7b01-4cf7-b53d-6a92ccfe2fbd" Title="OrganismState Class" Url="html/6046e4af-0a46-6a0a-f2e5-1d786d367222.htm">
+        <HelpTOCNode Id="3a0cd04c-8bea-491b-be90-9babc090441b" Title="OrganismState Fields" Url="html/d1fc7cc4-1c5b-f6fe-dfe8-221dc3f2c12b.htm">
           <HelpTOCNode Title="currentFoodChunks Field" Url="html/a44edd06-3e70-6a54-1bd2-b27f12963b9d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="21b42fb8-4085-4884-b06e-2bc5ba1de1f3" Title="OrganismState Methods" Url="html/cb746460-7813-a716-1065-441c9fbc9758.htm">
+        <HelpTOCNode Id="0d383cc5-3e64-4835-b027-80cbdcf4e27e" Title="OrganismState Methods" Url="html/cb746460-7813-a716-1065-441c9fbc9758.htm">
           <HelpTOCNode Title="AddIncubationTick Method " Url="html/cf74702d-5015-ca85-37d9-d98ddac992ef.htm" />
           <HelpTOCNode Title="AddTickToAge Method " Url="html/d3c8ba8d-683c-ba7e-f1ca-d2789e62d47a.htm" />
           <HelpTOCNode Title="BurnEnergy Method " Url="html/d6982ae2-fa54-183c-28bf-842d29c62284.htm" />
@@ -683,7 +683,7 @@
           <HelpTOCNode Title="ResetReproductionWait Method " Url="html/cd1ffa44-0471-3db5-b5f0-c2702840c99f.htm" />
           <HelpTOCNode Title="UpperBoundaryForEnergyState Method " Url="html/611c9188-2806-82e5-7496-d126c027c60f.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="50f8e498-0830-4ad8-9109-e0f56317210c" Title="OrganismState Properties" Url="html/6635dd0a-acc6-c936-61d3-350dbca0f5ea.htm">
+        <HelpTOCNode Id="ac2f56fd-f39c-437b-b648-31acaeaf0827" Title="OrganismState Properties" Url="html/6635dd0a-acc6-c936-61d3-350dbca0f5ea.htm">
           <HelpTOCNode Title="ActualDirection Property " Url="html/90bfc31c-49e6-53f5-1bba-f42522e31e75.htm" />
           <HelpTOCNode Title="CellRadius Property " Url="html/f7480cf9-46d6-9b23-e364-3472cd429695.htm" />
           <HelpTOCNode Title="CurrentMoveToAction Property " Url="html/5a1a9f52-4952-e8d3-21bc-96c2fcc3a6f4.htm" />
@@ -718,23 +718,23 @@
           <HelpTOCNode Title="TickAge Property " Url="html/f3608722-22fe-ec32-6e15-ba2ccf55419d.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8aa9f8d8-2d6d-4139-9a0a-e8d0782b60ce" Title="PlantState Class" Url="html/10da43b7-ee78-5ef5-e350-947559f78be7.htm">
+      <HelpTOCNode Id="688b7cd3-f82f-440f-bef1-001b6881a995" Title="PlantState Class" Url="html/10da43b7-ee78-5ef5-e350-947559f78be7.htm">
         <HelpTOCNode Title="PlantState Constructor " Url="html/f9547e56-6985-2043-f477-3e313b3d2d11.htm" />
-        <HelpTOCNode Id="b2395c9e-61d1-4963-833d-442c7ec181a1" Title="PlantState Methods" Url="html/6edddbd5-c732-674e-ee35-e6a5d49d3b2c.htm">
+        <HelpTOCNode Id="b1a2812d-6036-41ff-9f3c-17e767f59f2b" Title="PlantState Methods" Url="html/6edddbd5-c732-674e-ee35-e6a5d49d3b2c.htm">
           <HelpTOCNode Title="CloneMutable Method " Url="html/5eea4988-7fa7-487e-30af-1302e3e96aed.htm" />
           <HelpTOCNode Title="GiveEnergy Method " Url="html/e65d2afe-61b7-8fd4-5e69-028992b934ac.htm" />
           <HelpTOCNode Title="Grow Method " Url="html/3cf8a76f-aef5-b4d4-0873-449c3eca19e1.htm" />
           <HelpTOCNode Title="HealDamage Method " Url="html/a233577e-22a6-08d3-7543-d379ce0de72d.htm" />
           <HelpTOCNode Title="IncreaseRadiusTo Method " Url="html/b736f81e-012a-2e96-f1e3-3ea47415f785.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b2847ca7-1e35-4fb1-884a-fed550f9e95e" Title="PlantState Properties" Url="html/62d4249e-5855-fc2a-69c4-1644bfcc4145.htm">
+        <HelpTOCNode Id="bf20476b-0fce-4ec5-9d21-d6587026bcdb" Title="PlantState Properties" Url="html/62d4249e-5855-fc2a-69c4-1644bfcc4145.htm">
           <HelpTOCNode Title="CurrentMaxFoodChunks Property " Url="html/65dedc50-334a-e73d-3e93-078f72564d47.htm" />
           <HelpTOCNode Title="Height Property " Url="html/512254de-bd80-8cb2-f0c9-6be9d93f312f.htm" />
           <HelpTOCNode Title="PercentInjured Property " Url="html/4b827ecc-9d35-c39f-3cdd-92bd2add4b7d.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a4dd231c-bffa-42c5-919b-91ea859bf5a8" Title="Terrarium.Sdk.Enumerations" Url="html/f40a5e34-8075-8c97-0c0b-1f5dbc0aafc2.htm">
+    <HelpTOCNode Id="9e767362-218f-46f4-ac55-fcc1dc234ba6" Title="Terrarium.Sdk.Enumerations" Url="html/f40a5e34-8075-8c97-0c0b-1f5dbc0aafc2.htm">
       <HelpTOCNode Title="AnimalSkinFamily Enumeration" Url="html/12d7eff2-dd0e-af23-2fe0-3f27bc8b831a.htm" />
       <HelpTOCNode Title="AntennaPosition Enumeration" Url="html/6858a990-ce47-ef8a-1c27-08df56da7720.htm" />
       <HelpTOCNode Title="DisplayAction Enumeration" Url="html/ce06312f-dddc-8968-11b3-0ccc0ae6c2be.htm" />
@@ -744,10 +744,10 @@
       <HelpTOCNode Title="PopulationChangeReason Enumeration" Url="html/3e00953c-8cf4-173a-3165-0e3e914d9997.htm" />
       <HelpTOCNode Title="ReasonForStop Enumeration" Url="html/69588a14-72cf-f14d-0bce-b5d16d21dd04.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="261263ae-d17f-4ee2-b1e1-ad628e0837bd" Title="Terrarium.Sdk.Interfaces" Url="html/3565c6d8-6722-4c45-de9e-e75cbfd7cd28.htm">
-      <HelpTOCNode Id="0bee4090-33c4-4379-89aa-03479a65329b" Title="IAnimalSpecies Interface" Url="html/c4ca4fe0-7f42-d712-cdee-2247316c7327.htm">
+    <HelpTOCNode Id="6565a0d0-9d87-41f5-ac69-1b6c1a367f81" Title="Terrarium.Sdk.Interfaces" Url="html/3565c6d8-6722-4c45-de9e-e75cbfd7cd28.htm">
+      <HelpTOCNode Id="7febf2e3-eaa3-4b90-ae74-0f11a9c735e7" Title="IAnimalSpecies Interface" Url="html/c4ca4fe0-7f42-d712-cdee-2247316c7327.htm">
         <HelpTOCNode Title="IAnimalSpecies Methods" Url="html/014b5bc8-8815-48cc-cc99-8ec24465b2eb.htm" />
-        <HelpTOCNode Id="739777d5-e961-4f9a-8a4c-20699b3771ad" Title="IAnimalSpecies Properties" Url="html/6b40ee2e-faaf-f88e-f51e-4f3599397856.htm">
+        <HelpTOCNode Id="896315b9-e299-470a-979d-9203cc754e94" Title="IAnimalSpecies Properties" Url="html/6b40ee2e-faaf-f88e-f51e-4f3599397856.htm">
           <HelpTOCNode Title="EatingSpeedPerUnitRadius Property " Url="html/8a39fa1a-7e0d-8f72-111b-7d578323c238.htm" />
           <HelpTOCNode Title="EyesightRadius Property " Url="html/816bfe24-f7dc-1e4e-db1c-3cfc021f73f4.htm" />
           <HelpTOCNode Title="InvisibleOdds Property " Url="html/48ace553-0789-7e4e-7bad-4b3deaf84486.htm" />
@@ -758,30 +758,30 @@
           <HelpTOCNode Title="SkinFamily Property " Url="html/ce79abe8-4fd8-9bd6-63c3-2a07da31659b.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7ebb0b7d-4794-4d56-8d83-bc08b2dd83ab" Title="IAnimalWorldBoundary Interface" Url="html/cb65ba0b-6773-b7a9-6a61-a0216a71beee.htm">
-        <HelpTOCNode Id="17405d29-bfd8-434c-9e22-65ef1ec213fa" Title="IAnimalWorldBoundary Methods" Url="html/77df0c2a-69cb-c0dd-52f4-d5f7a9c1fbc1.htm">
+      <HelpTOCNode Id="42f1b1bf-2cc6-4b2e-b400-24329c3ba071" Title="IAnimalWorldBoundary Interface" Url="html/cb65ba0b-6773-b7a9-6a61-a0216a71beee.htm">
+        <HelpTOCNode Id="0cb3a669-eaaf-44bf-97ec-c8d9b73f4ffe" Title="IAnimalWorldBoundary Methods" Url="html/77df0c2a-69cb-c0dd-52f4-d5f7a9c1fbc1.htm">
           <HelpTOCNode Title="LookFor Method " Url="html/b9b761ea-59bf-9021-d205-0016dbdd6c44.htm" />
           <HelpTOCNode Title="LookForNoCamouflage Method " Url="html/770f9d0d-18d6-c887-80e1-5f46da8953d4.htm" />
           <HelpTOCNode Title="RefreshState Method " Url="html/12461b5b-6bf3-1793-9d21-fcc8afbb6645.htm" />
           <HelpTOCNode Title="Scan Method " Url="html/39a93c4d-3af6-65b7-afb1-204f732ec3de.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7707d442-7791-426e-aa6a-f654d2738e03" Title="IAnimalWorldBoundary Properties" Url="html/8423bbd0-67bf-7805-bbcf-b38b54af3325.htm">
+        <HelpTOCNode Id="f5ead0d6-2cac-4dca-b861-3335fb204315" Title="IAnimalWorldBoundary Properties" Url="html/8423bbd0-67bf-7805-bbcf-b38b54af3325.htm">
           <HelpTOCNode Title="CurrentAnimalState Property " Url="html/f332aca7-9da8-d5d9-3e96-2317a20d9a3b.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9f54369d-d6b3-4f4f-a059-fc48147d93f3" Title="IOrganismWorldBoundary Interface" Url="html/8cdfcf30-24a3-3997-2bbe-332bb6bf181e.htm">
-        <HelpTOCNode Id="8f5628c2-bd22-4c64-9c09-076fdc371420" Title="IOrganismWorldBoundary Properties" Url="html/cee364c4-70ec-3e7e-0ef0-91596a067f28.htm">
+      <HelpTOCNode Id="352e36bd-df8f-470f-9395-a4ee54161960" Title="IOrganismWorldBoundary Interface" Url="html/8cdfcf30-24a3-3997-2bbe-332bb6bf181e.htm">
+        <HelpTOCNode Id="950dd516-0e19-4e3d-b0dd-049be39baaed" Title="IOrganismWorldBoundary Properties" Url="html/cee364c4-70ec-3e7e-0ef0-91596a067f28.htm">
           <HelpTOCNode Title="CurrentOrganismState Property " Url="html/f1f1cb6d-0db4-2d87-cc00-85cb5472d9ab.htm" />
           <HelpTOCNode Title="ID Property " Url="html/d2ff87dc-46fc-eb23-48dc-e3871f9b7950.htm" />
           <HelpTOCNode Title="WorldHeight Property " Url="html/131cbc9b-1b93-93e3-2c69-fd3720e4f755.htm" />
           <HelpTOCNode Title="WorldWidth Property " Url="html/4a1b40f7-bdfe-6041-3f76-044688f1afd5.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="45e355e0-51c7-42bb-afa9-b24631409057" Title="ISpecies Interface" Url="html/0edd5167-13ae-eb40-3de9-bb902ffa697f.htm">
-        <HelpTOCNode Id="d325c671-2a71-4e2c-95fa-5eee96b839c4" Title="ISpecies Methods" Url="html/2b7e696f-76b0-09db-cf30-9ce8d91e56df.htm">
+      <HelpTOCNode Id="5d16aee4-2cdc-4d6a-a9c7-1268ababc77b" Title="ISpecies Interface" Url="html/0edd5167-13ae-eb40-3de9-bb902ffa697f.htm">
+        <HelpTOCNode Id="b661da60-8344-41f5-b2b2-ae8d6e7260f4" Title="ISpecies Methods" Url="html/2b7e696f-76b0-09db-cf30-9ce8d91e56df.htm">
           <HelpTOCNode Title="IsSameSpecies Method " Url="html/eba640ba-9924-647a-5b87-0c66f678ef1b.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ba7aedfb-d3d7-4a30-9e7c-8cee1a011846" Title="ISpecies Properties" Url="html/e1e8d09e-68e2-ff23-d695-0f82c2792a83.htm">
+        <HelpTOCNode Id="bef2e4f4-bcb6-4e71-b110-39cb4daae40e" Title="ISpecies Properties" Url="html/e1e8d09e-68e2-ff23-d695-0f82c2792a83.htm">
           <HelpTOCNode Title="GrowthWait Property " Url="html/3818835a-cedf-e1d3-e063-467877e01eeb.htm" />
           <HelpTOCNode Title="LifeSpan Property " Url="html/a79a35d7-e1e2-af0a-7f57-b0453516e5d0.htm" />
           <HelpTOCNode Title="MatureRadius Property " Url="html/dd86377a-eea3-6120-b572-795f2b0f840f.htm" />
