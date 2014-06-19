@@ -10,3 +10,5 @@ To start using the SDK in your own creature (a Class library), run the following
 The SDK docs are up! Click [here](http://terrariumapp.github.io/terrarium-sdk/docs/html/d75eb659-6335-53f6-af7a-81814a21ab7f.htm) to view them now.
 
 Terrarium is a continuation of the [.NET Terrarium project on CodePlex](https://terrarium2.codeplex.com/)
+
+[Terrarium Home Page](http://terrarium.azurewebsites.net/)
