@@ -11,7 +11,7 @@
     <iconUrl>https://avatars3.githubusercontent.com/u/7890777?s=140</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial NuGet package</releaseNotes>
+    <releaseNotes>Added SpeciesServiceStatus enum for both client and server to use</releaseNotes>
     <copyright>Copyright (c) Microsoft Corporation.  All rights reserved.</copyright>
     <tags>sdk ecosystem</tags>
   </metadata>

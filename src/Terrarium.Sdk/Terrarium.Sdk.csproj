@@ -131,6 +131,7 @@
     <Compile Include="Enumerations\PlantSkinFamily.cs" />
     <Compile Include="Enumerations\PopulationChangeReason.cs" />
     <Compile Include="Enumerations\ReasonForStop.cs" />
+    <Compile Include="Enumerations\SpeciesServiceStatus.cs" />
     <Compile Include="Interfaces\IAnimalSpecies.cs" />
     <Compile Include="Interfaces\IAnimalWorldBoundary.cs" />
     <Compile Include="Interfaces\IOrganismWorldBoundary.cs" />

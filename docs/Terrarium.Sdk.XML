@@ -4709,6 +4709,57 @@
              </para>
             </summary>
         </member>
+        <member name="T:Terrarium.Sdk.Enumerations.SpeciesServiceStatus">
+            <summary>
+            This enumeration contains return codes identifying
+            the results of an creature insertion into the Terrarium.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.Success">
+            <summary>
+            Success identifies an inserted creature.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.AlreadyExists">
+            <summary>
+            AlreadyExists means the creatures name has already been taken and a new name must be given.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.ServerDown">
+            <summary>
+            ServerDown means that a database error occured and the creature was not submitted.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.VersionIncompatible">
+            <summary>
+            VersionIncompatible is used when the required parameters aren't sent to the function.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.FiveMinuteThrottle">
+            <summary>
+            FiveMinuteThrottle is returned whenever a user tries to submit more than one animal per 5 minutes.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.TwentyFourHourThrottle">
+            <summary>
+            TwentyFourHourThrottle occurs whenever a user tries to submit more than 30 creatures in a 24 hour period.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.PoliCheckSpeciesNameFailure">
+            <summary>
+            The submission failed a check and has a questionable name
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.PoliCheckAuthorNameFailure">
+            <summary>
+            The submission failed a check and has a questionable author name
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Enumerations.SpeciesServiceStatus.PoliCheckEmailFailure">
+            <summary>
+            The submission failed a check and has a questionable email
+            </summary>
+        </member>
         <member name="T:Terrarium.Sdk.Interfaces.IAnimalSpecies">
             <summary>
              <para>
