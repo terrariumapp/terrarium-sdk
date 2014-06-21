@@ -7,4 +7,4 @@ REM pack
 ..\.nuget\NuGet.exe pack Terrarium.Sdk.csproj -Prop Configuration=Release
 
 REM publish
-..\.nuget\NuGet.exe push Terrarium.Sdk.1.2.0.0.nupkg
+..\.nuget\NuGet.exe push Terrarium.Sdk.1.4.0.0.nupkg

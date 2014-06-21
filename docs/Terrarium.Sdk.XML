@@ -3086,6 +3086,78 @@
                <para>Can only apply 100 points to any given characteristic.</para>
             </summary>
         </member>
+        <member name="T:Terrarium.Sdk.Classes.Engine.GenericTypeDescriptor">
+            <summary>
+             A Custom Type Descriptor class used to expand the Organism,
+             OrganismState, and Species objects into the Property
+             Browser dialog.
+            </summary>
+            <internal/>
+        </member>
+        <member name="F:Terrarium.Sdk.Classes.Engine.GenericTypeDescriptor.propsCollection">
+            <summary>
+             Collection of property descriptors that define the visible
+             properties when the object is viewed in the property
+             grid.
+            </summary>
+        </member>
+        <member name="F:Terrarium.Sdk.Classes.Engine.GenericTypeDescriptor.currentObject">
+            <summary>
+             The currently selected or visible object.
+            </summary>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.GenericTypeDescriptor.#ctor(System.Object)">
+            <summary>
+             Creates a new type descriptor object given a currently
+             selected object.  The properties will be pulled off
+             via reflection.
+            </summary>
+            <param name="current">The object to retrieve properties from.</param>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.GenericTypeDescriptor.SetObject(System.Object)">
+            <summary>
+             Set a new object on the descriptor whose properties
+             will be enumerated and displayed.
+            </summary>
+            <param name="current">The object to retrieve properties from.</param>
+        </member>
+        <member name="T:Terrarium.Sdk.Classes.Engine.Plant">
+            <summary>
+             <para>
+              This is the base class used by any creatures that
+              want to become a Plant.  This class contains
+              all methods that define a plants actions and behaviors.
+             </para>
+            </summary>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.Plant.SerializePlant(System.IO.MemoryStream)">
+            <internal/>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.Plant.DeserializePlant(System.IO.MemoryStream)">
+            <internal/>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.Plant.InternalPlantSerialize(System.IO.MemoryStream)">
+            <internal/>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.Plant.InternalPlantDeserialize(System.IO.MemoryStream)">
+            <internal/>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.Plant.InternalMain(System.Boolean)">
+            <internal/>
+        </member>
+        <member name="P:Terrarium.Sdk.Classes.Engine.Plant.State">
+            <summary>
+             <para>
+              Gets the PlantState object that represents your creature's current
+              state in the world.  This PlantState contains all of the standard
+              OrganismState properties in addition to new properties defined
+              just for use in plants.
+             </para>
+            </summary>
+            <returns>
+             PlantState object representing your plant's current world state.
+            </returns>
+        </member>
         <member name="T:Terrarium.Sdk.Classes.Helpers.Point">
             <summary>
             Copy of the Point structure from System.Drawing (so we don't have to include it in the SDK)
