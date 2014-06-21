@@ -2,11 +2,14 @@
 //      Copyright (c) Microsoft Corporation.  All rights reserved.                                                             
 //------------------------------------------------------------------------------
 
+using System;
+
 namespace Terrarium.Sdk.Classes.Helpers
 {
     /// <summary>
     /// Copy of the Point structure from System.Drawing (so we don't have to include it in the SDK)
     /// </summary>
+    [Serializable]
     public class Point
     {
         private int x;
