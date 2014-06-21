@@ -4915,5 +4915,35 @@
              tick.
             </summary>
         </member>
+        <member name="T:Terrarium.Sdk.Interfaces.IPlantSpecies">
+            <summary>
+             <para>
+              Species information properties that are applicable only to plants
+              and that should be made available to developers.  Use this to find
+              out general information about a particular plant species' capabilities.
+             </para>
+            </summary>
+        </member>
+        <member name="P:Terrarium.Sdk.Interfaces.IPlantSpecies.SkinFamily">
+            <summary>
+             <para>
+              Returns the SkinFamily the creature will use when being displayed in the Terrarium.
+             </para>
+            </summary>
+            <returns>
+             System.String identifying the creature's skin family.
+            </returns>
+        </member>
+        <member name="T:Terrarium.Sdk.Interfaces.IPlantWorldBoundary">
+            <summary>
+             Represents a plant's view of the world.
+            </summary>
+        </member>
+        <member name="P:Terrarium.Sdk.Interfaces.IPlantWorldBoundary.CurrentPlantState">
+            <summary>
+             Retrieves the most up to date plant state for the current
+             plant.
+            </summary>
+        </member>
     </members>
 </doc>

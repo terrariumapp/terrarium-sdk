@@ -126,6 +126,8 @@
     <Compile Include="Interfaces\IAnimalSpecies.cs" />
     <Compile Include="Interfaces\IAnimalWorldBoundary.cs" />
     <Compile Include="Interfaces\IOrganismWorldBoundary.cs" />
+    <Compile Include="Interfaces\IPlantSpecies.cs" />
+    <Compile Include="Interfaces\IPlantWorldBoundary.cs" />
     <Compile Include="Interfaces\ISpecies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
