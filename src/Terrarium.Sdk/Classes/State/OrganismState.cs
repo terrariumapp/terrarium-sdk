@@ -44,14 +44,14 @@ namespace Terrarium.Sdk.Classes.State
         ///  and paths.
         /// </summary>
         [NonSerialized]
-        private MoveToAction currentMoveToAction;
+        private MoveToAction _currentMoveToAction;
 
         /// <summary>
         ///  The creature's current location in the world.  This
         ///  item is still serialized since it is important when
         ///  reloading a game state.
         /// </summary>
-        private Point currentPosition;
+        private Point _currentPosition;
 
         /// <summary>
         ///  Represents the current reproduction action.  Should
@@ -61,12 +61,12 @@ namespace Terrarium.Sdk.Classes.State
         ///  or not.
         /// </summary>
         [NonSerialized]
-        private ReproduceAction currentReproduceAction;
+        private ReproduceAction _currentReproduceAction;
 
         /// <summary>
         ///  The amount of energy the creature currently has.
         /// </summary>
-        private double energy = 1;
+        private double _energy = 1;
 
         /// <summary>
         ///  The results of any actions are stored here.  During a creature's
@@ -74,7 +74,7 @@ namespace Terrarium.Sdk.Classes.State
         /// </summary>
         /// <internal/>
         [NonSerialized]
-        private OrganismEventResults events;
+        private OrganismEventResults _events;
 
         /// <summary>
         ///  A less restrictive immutability flag used just for locking
@@ -83,7 +83,7 @@ namespace Terrarium.Sdk.Classes.State
         // Once we've built the WorldStateindex, if size and position change it really screws things up 
         // and we don't have a mechanism to have the index get updated.  This allows us to lock them
         // down.
-        private bool lockedSizeAndPosition;
+        private bool _lockedSizeAndPosition;
 
 
         /// <summary>
@@ -102,7 +102,8 @@ namespace Terrarium.Sdk.Classes.State
             Generation = generation;
             SetStoredEnergyInternal(OrganismState.UpperBoundaryForEnergyState(species, initialEnergyState, initialRadius));
             Radius = initialRadius;
-            events = new OrganismEventResults();
+            _events = new OrganismEventResults();
+            _currentPosition = new Point();
         }
 
         /// <summary>
@@ -178,7 +179,7 @@ namespace Terrarium.Sdk.Classes.State
         /// <internal/>
         public OrganismEventResults OrganismEvents
         {
-            get { return events; }
+            get { return _events; }
 
             set
             {
@@ -187,7 +188,7 @@ namespace Terrarium.Sdk.Classes.State
                     throw new GameEngineException("Object is immutable.");
                 }
 
-                events = value;
+                _events = value;
             }
         }
 
@@ -262,7 +263,7 @@ namespace Terrarium.Sdk.Classes.State
         /// <internal/>
         public ReproduceAction CurrentReproduceAction
         {
-            get { return currentReproduceAction; }
+            get { return _currentReproduceAction; }
 
             set
             {
@@ -276,7 +277,7 @@ namespace Terrarium.Sdk.Classes.State
                     throw new GameEngineException("Dead organisms can't reproduce.");
                 }
 
-                currentReproduceAction = value;
+                _currentReproduceAction = value;
 
                 if (value == null)
                 {
@@ -330,7 +331,7 @@ namespace Terrarium.Sdk.Classes.State
         /// </returns>
         public Boolean IsIncubating
         {
-            get { return currentReproduceAction != null; }
+            get { return _currentReproduceAction != null; }
         }
 
         /// <summary>
@@ -376,7 +377,7 @@ namespace Terrarium.Sdk.Classes.State
 
         private void SetStoredEnergyInternal(double newEnergy)
         {
-            energy = newEnergy;
+            _energy = newEnergy;
         }
 
         /// <summary>
@@ -390,7 +391,7 @@ namespace Terrarium.Sdk.Classes.State
         /// </returns>
         public double StoredEnergy
         {
-            get { return energy; }
+            get { return _energy; }
 
             set
             {
@@ -415,7 +416,7 @@ namespace Terrarium.Sdk.Classes.State
                     value = Species.MaximumEnergyPerUnitRadius * (double)Radius;
                 }
 
-                energy = value;
+                _energy = value;
             }
         }
 
@@ -435,22 +436,22 @@ namespace Terrarium.Sdk.Classes.State
             {
                 var energyBuckets = (Species.MaximumEnergyPerUnitRadius * Radius) / 5;
 
-                if (energy > energyBuckets * 4)
+                if (_energy > energyBuckets * 4)
                 {
                     return EnergyState.Full;
                 }
 
-                if (energy > energyBuckets * 2)
+                if (_energy > energyBuckets * 2)
                 {
                     return EnergyState.Normal;
                 }
 
-                if (energy > energyBuckets * 1)
+                if (_energy > energyBuckets * 1)
                 {
                     return EnergyState.Hungry;
                 }
 
-                return energy > 0 ? EnergyState.Deterioration : EnergyState.Dead;
+                return _energy > 0 ? EnergyState.Deterioration : EnergyState.Dead;
             }
         }
 
@@ -468,10 +469,10 @@ namespace Terrarium.Sdk.Classes.State
         {
             get
             {
-                Debug.Assert(((energy / (Species.MaximumEnergyPerUnitRadius * Math.Max(1, Radius))) * 100)
+                Debug.Assert(((_energy / (Species.MaximumEnergyPerUnitRadius * Math.Max(1, Radius))) * 100)
                              <= 100);
 
-                return ((energy / (Species.MaximumEnergyPerUnitRadius * Math.Max(1, Radius))));
+                return ((_energy / (Species.MaximumEnergyPerUnitRadius * Math.Max(1, Radius))));
             }
         }
 
@@ -507,21 +508,15 @@ namespace Terrarium.Sdk.Classes.State
         ///  </para>
         /// </summary>
         /// <returns>
-        ///  System.Drawing.Point representing the creature's current location.
+        ///  Terrarium.Sdk.Helpers.Point representing the creature's current location.
         /// </returns>
         public Point Position
         {
-            // Points aren't immutable, so return a copy
-            get { return new Point(currentPosition.X, currentPosition.Y); }
+            get { return _currentPosition; }
 
             set
             {
-                if (IsImmutable)
-                {
-                    throw new GameEngineException("Object is immutable.");
-                }
-
-                if (lockedSizeAndPosition)
+                if (_lockedSizeAndPosition)
                 {
                     throw new GameEngineException("Objects position and size are locked.");
                 }
@@ -531,8 +526,8 @@ namespace Terrarium.Sdk.Classes.State
                     throw new GameEngineException("Dead organisms can't move.");
                 }
 
-                currentPosition.X = value.X;
-                currentPosition.Y = value.Y;
+                _currentPosition.X = value.X;
+                _currentPosition.Y = value.Y;
                 SetBitmapDirection();
             }
         }
@@ -620,7 +615,7 @@ namespace Terrarium.Sdk.Classes.State
         /// <internal/>
         public MoveToAction CurrentMoveToAction
         {
-            get { return currentMoveToAction; }
+            get { return _currentMoveToAction; }
 
             set
             {
@@ -634,7 +629,7 @@ namespace Terrarium.Sdk.Classes.State
                     throw new GameEngineException("Dead organisms can't move.");
                 }
 
-                currentMoveToAction = value;
+                _currentMoveToAction = value;
                 SetBitmapDirection();
             }
         }
@@ -653,9 +648,9 @@ namespace Terrarium.Sdk.Classes.State
         {
             get
             {
-                if (currentMoveToAction != null)
+                if (_currentMoveToAction != null)
                 {
-                    return currentMoveToAction.MovementVector.Speed;
+                    return _currentMoveToAction.MovementVector.Speed;
                 }
                 return 0;
             }
@@ -683,7 +678,7 @@ namespace Terrarium.Sdk.Classes.State
         /// </returns>
         public Boolean IsStopped
         {
-            get { return currentMoveToAction == null; }
+            get { return _currentMoveToAction == null; }
         }
 
         /// <summary>
@@ -733,7 +728,7 @@ namespace Terrarium.Sdk.Classes.State
         {
             if (other is OrganismState)
             {
-                return currentPosition.Y.CompareTo(((OrganismState)other).Position.Y);
+                return _currentPosition.Y.CompareTo(((OrganismState)other).Position.Y);
             }
             return 0;
         }
@@ -754,7 +749,7 @@ namespace Terrarium.Sdk.Classes.State
                 throw new GameEngineException("Object is immutable.");
             }
 
-            lockedSizeAndPosition = true;
+            _lockedSizeAndPosition = true;
         }
 
         /// <summary>
@@ -764,9 +759,9 @@ namespace Terrarium.Sdk.Classes.State
         /// <internal/>
         public void MakeImmutable()
         {
-            if (events != null)
+            if (_events != null)
             {
-                events.MakeImmutable();
+                _events.MakeImmutable();
             }
 
             IsImmutable = true;
@@ -791,13 +786,13 @@ namespace Terrarium.Sdk.Classes.State
             newInstance.Radius = Radius;
 
             // Safe because they are immutable
-            newInstance.currentMoveToAction = currentMoveToAction;
-            newInstance.currentReproduceAction = currentReproduceAction;
+            newInstance._currentMoveToAction = _currentMoveToAction;
+            newInstance._currentReproduceAction = _currentReproduceAction;
 
             // Points aren't immutable, so return a copy
-            newInstance.currentPosition = new Point(currentPosition.X, currentPosition.Y);
+            newInstance._currentPosition = new Point(_currentPosition.X, _currentPosition.Y);
 
-            newInstance.energy = energy;
+            newInstance._energy = _energy;
             newInstance.currentFoodChunks = currentFoodChunks;
             newInstance.IncubationTicks = IncubationTicks;
             newInstance.TickAge = TickAge;
@@ -963,7 +958,7 @@ namespace Terrarium.Sdk.Classes.State
                 throw new GameEngineException("Object is immutable.");
             }
 
-            if (lockedSizeAndPosition)
+            if (_lockedSizeAndPosition)
             {
                 throw new GameEngineException("Objects position and size are locked.");
             }
@@ -995,7 +990,7 @@ namespace Terrarium.Sdk.Classes.State
             if (CurrentMoveToAction != null)
             {
                 var direction = Vector.Subtract(CurrentMoveToAction.MovementVector.Destination,
-                                                currentPosition);
+                                                _currentPosition);
                 var unitVector = direction.GetUnitVector();
 
                 var angle = Math.Acos(unitVector.X);
@@ -1023,8 +1018,8 @@ namespace Terrarium.Sdk.Classes.State
                 throw new GameEngineException("Object is immutable.");
             }
 
-            currentMoveToAction = null;
-            energy = 0;
+            _currentMoveToAction = null;
+            _energy = 0;
             DeathReason = reason;
         }
 

@@ -78,7 +78,7 @@ namespace Terrarium.Sdk.Classes.Creature
         ///  </para>
         /// </summary>
         /// <returns>
-        /// System.Drawing.Point object initialized to the organisms current
+        /// Terrarium.Sdk.Helpers.Point object initialized to the organisms current
         /// location in the game world.
         /// </returns>
         public Point Position

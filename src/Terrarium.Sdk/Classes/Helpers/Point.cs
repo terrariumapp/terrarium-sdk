@@ -7,56 +7,65 @@ using System;
 namespace Terrarium.Sdk.Classes.Helpers
 {
     /// <summary>
-    /// Copy of the Point structure from System.Drawing (so we don't have to include it in the SDK)
+    ///     Slimmed down copy of the Point structure from System.Drawing (so we don't have the SDK reference System.Drawing).
+    ///     Represents an ordered pair of integer x- and y-coordinates that defines a point in a two-dimensional plane.
     /// </summary>
     [Serializable]
     public class Point
     {
-        private int x;
-        private int y;
+        /// <summary>
+        /// Represents a Point that has X and Y values set to zero.
+        /// </summary>
+        public static readonly Point Empty = new Point();
 
+        private int _x;
+        private int _y;
+
+        /// <summary>
+        /// Initializes a new instance of the Point class.
+        /// </summary>
         public Point()
         {
         }
 
+        /// <summary>
+        /// Initializes a new instance of the Point class with the specified coordinates.
+        /// </summary>
+        /// <param name="x">The horizontal position of the point.</param>
+        /// <param name="y">The vertical position of the point.</param>
         public Point(int x, int y)
         {
-            this.x = x;
-            this.y = y;
+            _x = x;
+            _y = y;
         }
 
-        public static readonly Point Empty = new Point();
-
+        /// <summary>
+        /// Gets a value indicating whether this Point is empty.
+        /// </summary>
+        /// <returns>
+        /// true if both X and Y are 0; otherwise, false.
+        /// </returns>
         public bool IsEmpty
         {
-            get
-            {
-                return x == 0 && y == 0;
-            }
+            get { return _x == 0 && _y == 0; }
         }
 
+        /// <summary>
+        /// Gets or sets the x-coordinate of this Point.
+        /// </summary>
         public int X
         {
-            get
-            {
-                return x;
-            }
-            set
-            {
-                x = value;
-            }
+            get { return _x; }
+            set { _x = value; }
         }
 
+        /// <summary>
+        /// Gets or sets the y-coordinate of this Point.
+        /// </summary>
         public int Y
         {
-            get
-            {
-                return y;
-            }
-            set
-            {
-                y = value;
-            }
+            get { return _y; }
+            set { _y = value; }
         }
     }
 }

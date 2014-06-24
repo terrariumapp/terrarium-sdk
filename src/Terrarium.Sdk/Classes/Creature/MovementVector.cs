@@ -8,31 +8,31 @@ using Terrarium.Sdk.Classes.Helpers;
 namespace Terrarium.Sdk.Classes.Creature
 {
     /// <summary>
-    ///  <para>
-    ///   Used to define a vector along which creatures can move.  The vector
-    ///   encompasses both destination and speed.
-    ///  </para>
+    ///     <para>
+    ///         Used to define a vector along which creatures can move.  The vector
+    ///         encompasses both destination and speed.
+    ///     </para>
     /// </summary>
     [Serializable]
     public class MovementVector
     {
-        private readonly int speed;
-        private Point destination;
+        private readonly Point _destination;
+        private readonly int _speed;
 
         /// <summary>
-        ///  <para>
-        ///   Used to define a vector along which creatures can move.  The vector
-        ///   encompasses both destination and speed.
-        ///  </para>
+        ///     <para>
+        ///         Used to define a vector along which creatures can move.  The vector
+        ///         encompasses both destination and speed.
+        ///     </para>
         /// </summary>
         /// <param name="destination">
-        ///  System.Point representing the location in the world to move to.
+        ///     System.Point representing the location in the world to move to.
         /// </param>
         /// <param name="speed">
-        ///  The speed at which to move.
+        ///     The speed at which to move.
         /// </param>
         /// <exception cref="System.ApplicationException">
-        ///  Thrown if speed is less than 2.  Also thrown if destination is empty and speed is not 0.
+        ///     Thrown if speed is less than 2.  Also thrown if destination is empty and speed is not 0.
         /// </exception>
         public MovementVector(Point destination, int speed)
         {
@@ -45,7 +45,7 @@ namespace Terrarium.Sdk.Classes.Creature
 
             if (!destination.IsEmpty)
             {
-                this.destination = new Point(destination.X, destination.Y);
+                _destination = new Point(destination.X, destination.Y);
             }
             else
             {
@@ -53,75 +53,72 @@ namespace Terrarium.Sdk.Classes.Creature
                 {
                     throw new ApplicationException("Speed must be zero if destination is empty");
                 }
-                this.destination = Point.Empty;
+                _destination = Point.Empty;
             }
 
-            this.speed = speed;
+            _speed = speed;
         }
 
         /// <summary>
-        ///  <para>
-        ///   Used to determine the destination location for this MovementVector.
-        ///  </para>
+        ///     <para>
+        ///         Used to determine the destination location for this MovementVector.
+        ///     </para>
         /// </summary>
         /// <returns>
-        ///  System.Point representing the destination for this MovementVector.
+        ///     System.Point representing the destination for this MovementVector.
         /// </returns>
         public Point Destination
         {
             // Point is not immutable
             get
             {
-                if (destination.IsEmpty)
+                if (_destination.IsEmpty)
                 {
                     return Point.Empty;
                 }
-                else
-                {
-                    return new Point(destination.X, destination.Y);
-                }
+                return new Point(_destination.X, _destination.Y);
             }
         }
 
         /// <summary>
-        ///  <para>
-        ///   Used to determine the speed defined for this MovementVector
-        ///  </para>
+        ///     <para>
+        ///         Used to determine the speed defined for this MovementVector
+        ///     </para>
         /// </summary>
         /// <returns>
-        ///  System.Int32 representing the speed of movement for this MovementVector.
+        ///     System.Int32 representing the speed of movement for this MovementVector.
         /// </returns>
         public int Speed
         {
-            get { return speed; }
+            get { return _speed; }
         }
 
         /// <summary>
-        ///  <para>
-        ///   Used to determine if this MovementVector will stop movement.  This is
-        ///   true whenever an empty point and a speed of 0 was used.
-        ///  </para>
+        ///     <para>
+        ///         Used to determine if this MovementVector will stop movement.  This is
+        ///         true whenever an empty point and a speed of 0 was used.
+        ///     </para>
         /// </summary>
         /// <returns>
-        ///  System.Int32 representing the speed of movement for this MovementVector.
+        ///     System.Int32 representing the speed of movement for this MovementVector.
         /// </returns>
         public Boolean IsStopped
         {
-            get { return destination.IsEmpty; }
+            get { return _destination.IsEmpty; }
         }
 
         /// <summary>
-        ///  <para>
-        ///   Used to get a special string representation of this MovementVector
-        ///   for debugging purposes.
-        ///  </para>
+        ///     <para>
+        ///         Used to get a special string representation of this MovementVector
+        ///         for debugging purposes.
+        ///     </para>
         /// </summary>
         /// <returns>
-        ///  System.String of the string representation of a MovementVector.
+        ///     System.String of the string representation of a MovementVector.
         /// </returns>
         public override string ToString()
         {
-            return "MovementVector {" + destination.X + "," + destination.Y + " speed=" + speed + "}";
+            return "MovementVector {" + _destination.X + "," + _destination.Y + " speed=" + _speed + "}";
         }
     }
 }

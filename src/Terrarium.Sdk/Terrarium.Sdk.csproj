@@ -115,6 +115,7 @@
     <Compile Include="Classes\Engine\Exceptions\OutOfBoundsException.cs" />
     <Compile Include="Classes\Engine\Exceptions\SizeOutOfRangeCharacteristicException.cs" />
     <Compile Include="Classes\Engine\Exceptions\TooFastException.cs" />
+    <Compile Include="Classes\Engine\Exceptions\TooManyPointsException.cs" />
     <Compile Include="Classes\Engine\Exceptions\TooManyPointsOnOneCharacteristicException.cs" />
     <Compile Include="Classes\Engine\GenericTypeDescriptor.cs" />
     <Compile Include="Classes\Engine\Plant.cs" />

@@ -3076,6 +3076,16 @@
             This organism cannot move this fast.
             </summary>
         </member>
+        <member name="T:Terrarium.Sdk.Classes.Engine.Exceptions.TooManyPointsException">
+            <summary>
+               <para>All points supplied for an organism must add up to 100</para>
+            </summary>
+        </member>
+        <member name="M:Terrarium.Sdk.Classes.Engine.Exceptions.TooManyPointsException.#ctor">
+            <summary>
+               <para>All points supplied for an organism must add up to 100</para>
+            </summary>
+        </member>
         <member name="T:Terrarium.Sdk.Classes.Engine.Exceptions.TooManyPointsOnOneCharacteristicException">
             <summary>
                <para>Can only apply 100 points to any given characteristic.</para>
@@ -3868,7 +3878,7 @@
              </para>
             </summary>
             <returns>
-             System.Drawing.Point representing the creature's current location.
+             Terrarium.Sdk.Helpers.Point representing the creature's current location.
             </returns>
         </member>
         <member name="P:Terrarium.Sdk.Classes.State.OrganismState.GridX">
