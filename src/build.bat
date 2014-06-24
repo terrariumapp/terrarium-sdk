@@ -22,6 +22,4 @@ mkdir Build
 mkdir Build\lib
 mkdir Build\lib\net40
 
-copy src\Terrarium.Sdk\bin\%config%\Terrarium.Sdk.dll Build\lib\net40
-
 %nuget% pack "src\Terrarium.Sdk.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
