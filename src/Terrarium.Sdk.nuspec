@@ -4,10 +4,10 @@
     <id>Terrarium.Sdk</id>
     <version>$version$</version>
     <title>Terrarium SDK</title>
-    <authors>Micrsoft, Bil Simser</authors>
+    <authors>Microsoft, Bil Simser</authors>
     <owners>Bil Simser</owners>
     <licenseUrl>https://github.com/terrariumapp/terrarium-sdk/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/terrariumapp</projectUrl>
+    <projectUrl>http://terrarium.azurewebsites.net/</projectUrl>
     <iconUrl>https://avatars3.githubusercontent.com/u/7890777?s=140</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Terrarium provides a great way for developers to learn about the .NET programming model and language as they develop creatures and introduce them into a peer-to-peer ecosystem.</description>
